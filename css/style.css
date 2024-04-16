@@ -862,6 +862,7 @@ h4,
   margin-bottom: auto;
   
   /* background: rgb(2, 143, 194); */
+  background-image: url(/images/about\ bg.jpg);
 }
 .hero h1 {
   color: #ffffff;
@@ -1742,7 +1743,6 @@ h4,
 }
 .testimonial .img-wrap img {
   margin: 0 auto;
-  width: 70px;
   border-radius: 50%;
 }
 

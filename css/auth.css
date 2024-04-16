@@ -381,7 +381,10 @@ body {
   width: 50%;
   overflow: hidden;
 }
-
+.signin-image img, .signup-image img{
+  height: 400px;
+  border-radius: 10px;
+}
 .signup-image {
   margin: 0 55px;
 }
