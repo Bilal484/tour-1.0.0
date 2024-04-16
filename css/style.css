@@ -804,8 +804,8 @@ h4,
 
 .hero {
   padding: 7rem 0 10rem 0;
-  background-color: #028fc2;
-  background-image: url(/images/bus.JPG);
+  background-color: #048fc1d7;
+  background-image: url(/images/about\ bg.jpg);
   background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: cover;
@@ -815,7 +815,8 @@ h4,
 .hero.hero-inner {
   padding: 2rem 0 7rem 0;
   margin-bottom: auto;
-  background: rgb(2, 143, 194);
+  
+  /* background: rgb(2, 143, 194); */
 }
 .hero h1 {
   color: #ffffff;
