@@ -860,7 +860,8 @@ h4,
 .hero.hero-inner {
   padding: 2rem 0 7rem 0;
   margin-bottom: auto;
-  background: rgb(2, 143, 194);
+  
+  /* background: rgb(2, 143, 194); */
 }
 .hero h1 {
   color: #ffffff;
