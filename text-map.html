@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Route Planner</title>
+    <style>
+        #map {
+            height: 400px;
+            width: 80%;
+            margin: 20px auto;
+        }
+        #saveRouteForm {
+            margin-top: 20px;
+            text-align: center;
+        }
+        #saveRouteForm label, #saveRouteForm textarea, #saveRouteForm button {
+            display: block;
+            margin: 10px auto;
+        }
+        #saveRouteForm button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #saveRouteForm button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Route Planner</h1>
+    <div id="map"></div>
+    <form id="saveRouteForm">
+        <label for="routeTitle">Title:</label>
+        <input type="text" id="routeTitle" name="routeTitle" required><br>
+        <label for="routeDescription">Description:</label>
+        <textarea id="routeDescription" name="routeDescription" required></textarea><br>
+        <button type="button" onclick="saveRoute()">Save Route</button>
+    </form>
+
+    <script>
+        var map;
+        var markers = [];
+        var polyline;
+
+        function initMap() {
+            map = new google.maps.Map(document.getElementById('map'), {
+                center: { lat: -25.2744, lng: 133.7751 }, // Coordinates for Australia
+                zoom: 5
+            });
+
+            map.addListener('click', function(event) {
+                addMarker(event.latLng);
+            });
+        }
+
+        function addMarker(location) {
+            var marker = new google.maps.Marker({
+                position: location,
+                map: map
+            });
+            markers.push(marker);
+
+            updatePolyline();
+        }
+
+        function updatePolyline() {
+            if (polyline) {
+                polyline.setMap(null);
+            }
+
+            var path = markers.map(function(marker) {
+                return marker.getPosition();
+            });
+
+            polyline = new google.maps.Polyline({
+                path: path,
+                geodesic: true,
+                strokeColor: '#FF0000',
+                strokeOpacity: 1.0,
+                strokeWeight: 2
+            });
+
+            polyline.setMap(map);
+
+            calculateDistance();
+        }
+
+        function calculateDistance() {
+            var distance = google.maps.geometry.spherical.computeLength(polyline.getPath());
+            document.getElementById('routeTitle').setAttribute('placeholder', 'Distance: ' + (distance / 1000).toFixed(2) + ' km');
+        }
+
+        function saveRoute() {
+            var title = document.getElementById('routeTitle').value;
+            var description = document.getElementById('routeDescription').value;
+
+            // Here you can implement your saving logic
+            console.log('Title:', title);
+            console.log('Description:', description);
+            console.log('Coordinates:', markers.map(function(marker) { return marker.getPosition(); }));
+        }
+    </script>
+    <!-- Replace YOUR_API_KEY with your actual Google Maps API key -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDDCT1y6vpC4jJ3_LGzRnMF6OclbkDEfU&libraries=geometry&callback=initMap">
+    </script>
+</body>
+</html>
