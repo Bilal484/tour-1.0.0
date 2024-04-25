@@ -84,6 +84,12 @@ button {
 
  }
 
+  /* cards of t2 */
+  .background-color-card{
+    background-color: #EBEAEB;
+    padding: 28px;
+   }
+
  /* Connect vehicles start */
 .Connect-vehicles{
   background-color: #06218E;
