@@ -31,9 +31,19 @@
   <body>
     <header>
       <!-- place navbar here -->
-      <nav class="site-nav">
+      <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+          <div class="site-mobile-menu-close">
+            <span class="icofont-close js-menu-toggle"></span>
+          </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+      </div>
+
+
+      <nav class="site-nav d-flex justify-content-between">
         <div class="container">
-          <div class="site-navigation">
+          <div class="site-navigation  d-flex justify-content-between">
             <a href="index.html" class="logo m-0"
               ><img src="images/logo white.png" width="200" alt="" />
               <span class="text-primary"></span
@@ -44,9 +54,9 @@
             >
               <li class="active"><a href="index.html">GTFS</a></li>
               <li><a href="services.html">Resources</a></li>
-              <li><a href="services.html">Pricing</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="about.html">Partners</a></li>
+              <li><a href="pricing.html">Pricing</a></li>
+              <!-- <li><a href="about.html">About</a></li> -->
+              
               <li class="dropdown">
                 <a
                   href="#"
@@ -398,7 +408,7 @@
                   <ul class="links list-unstyled">
                     <li><a href="#">GTFS</a></li>
                     <li><a href="#">Resources</a></li>
-                    <li><a href="#">Partner</a></li>
+                    
                     <li><a href="#">Login</a></li>
                   </ul>
                 </div>

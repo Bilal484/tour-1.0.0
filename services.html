@@ -42,46 +42,78 @@
     <div class="site-mobile-menu-body"></div>
   </div>
 
-  <nav class="site-nav">
-    <div class="container">
+  <nav class="site-nav d-flex justify-content-between">
+    <div class="container ">
       <div class="site-navigation">
-        <a href="index.html" class="logo m-0"><img src="/images/logo.jpg" width="150" alt=""><span class="text-primary"></span></a>
+        <a href="index.html" class="logo m-0"
+          ><img src="images/logo white.png" width="200" alt="" />
+          <span class="text-primary"></span
+        ></a>
 
-        <ul class="js-clone-nav d-none d-lg-inline-block text-left site-menu float-right">
+        <ul
+          class="js-clone-nav d-none d-lg-inline-block text-left site-menu float-right"
+        >
           <li class="active"><a href="index.html">GTFS</a></li>
-          <!-- <li class="has-children">
-						<a href="#">Dropdown</a>
-						<ul class="dropdown">
-							<li><a href="elements.html">Elements</a></li>
-							<li><a href="#">Menu One</a></li>
-							<li class="has-children">
-								<a href="#">Menu Two</a>
-								<ul class="dropdown">
-									<li><a href="#">Sub Menu One</a></li>
-									<li><a href="#">Sub Menu Two</a></li>
-									<li><a href="#">Sub Menu Three</a></li>
-								</ul>
-							</li>
-							<li><a href="#">Menu Three</a></li>
-						</ul>
-					</li> -->
           <li><a href="services.html">Resources</a></li>
-          <li><a href="services.html">Pricing</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="about.html">Partners</a></li>
-          <li><a href="contact.html">Contact Us</a></li> &nbsp; &nbsp;
-           <li><a href="Sign-up.html">Login</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <!-- <li><a href="about.html">About</a></li> -->
+          <!-- <li><a href="#">Partners</a></li> -->
+          <li class="dropdown">
+            <a
+              href="#"
+              class="dropdown-toggle"
+              data-toggle="dropdown"
+              role="button"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Transit Services <span class="caret"></span
+            ></a>
+            <ul class="dropdown-menu">
+              <!-- Dropdown menu items -->
+              <li><a href="t1-enroute.html"> T1 Enroute </a></li>
+              <li><a href="t2.html">T2 Performance </a></li>
+              <li><a href="t3.html">T3 Schedules </a></li>
+              <li><a href="t4.html">T4 GTFS Static </a></li>
+              <li><a href="t5.html">T5 GTFS Realtime </a></li>
+              <li><a href="t6.html">T6 Operations </a></li>
+              <li><a href="t7.html">T7 Insights </a></li>
+              <li><a href="t8.html">T8 Governance </a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a
+              href="#"
+              class="dropdown-toggle"
+              data-toggle="dropdown"
+              role="button"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Company <span class="caret"></span
+            ></a>
+            <ul class="dropdown-menu">
+              <!-- Dropdown menu items -->
+              
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </li>
+
+          &nbsp; &nbsp;
+          <li><a href="Sign-up.html">Login</a></li>
         </ul>
 
-        <a href="#" class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-none light"
-          data-toggle="collapse" data-target="#main-navbar">
+        <a
+          href="#"
+          class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-none light"
+          data-toggle="collapse"
+          data-target="#main-navbar"
+        >
           <span></span>
         </a>
-
       </div>
     </div>
   </nav>
-
 
 
   <div class="hero hero-inner">
