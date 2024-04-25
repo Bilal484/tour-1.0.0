@@ -24,79 +24,110 @@
   <link rel="stylesheet" href="t2.css" />
 </head>
 
-<body>
-  <header>
-    <!-- place navbar here -->
-    <nav class="site-nav">
-      <div class="container">
-        <div class="site-navigation">
-          <a href="index.html" class="logo m-0"><img src="images/logo white.png" width="200" alt="" />
-            <span class="text-primary"></span></a>
-
-          <ul class="js-clone-nav d-none d-lg-inline-block text-left site-menu float-right">
-            <li class="active"><a href="index.html">GTFS</a></li>
-            <li><a href="services.html">Resources</a></li>
-            <li><a href="services.html">Pricing</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="about.html">Partners</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                aria-expanded="false">Transit Services <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <!-- Dropdown menu items -->
-                <li><a href="t1-enroute.html"> T1 Enroute </a></li>
-                <li><a href="t2.html">T2 Performance </a></li>
-                <li><a href="t3.html">T3 Schedules </a></li>
-                <li><a href="t4.html">T4 GTFS Static </a></li>
-                <li><a href="t5.html">T5 GTFS Realtime </a></li>
-                <li><a href="t6.html">T6 Operations </a></li>
-                <li><a href="t7.html">T7 Insights </a></li>
-                <li><a href="t8.html">T8 Governance </a></li>
-              </ul>
-            </li>
-
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                aria-expanded="false">Company <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <!-- Dropdown menu items -->
-
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-              </ul>
-            </li>
-
-            &nbsp; &nbsp;
-            <li><a href="Sign-up.html">Login</a></li>
-          </ul>
-
-          <a href="#" class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-none light"
-            data-toggle="collapse" data-target="#main-navbar">
-            <span></span>
-          </a>
+  <body>
+    <header>
+      <!-- place navbar here -->
+      <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+          <div class="site-mobile-menu-close">
+            <span class="icofont-close js-menu-toggle"></span>
+          </div>
         </div>
+        <div class="site-mobile-menu-body"></div>
       </div>
-    </nav>
-  </header>
-  <main>
-    <div class="t2-banner overflow-hidden">
-      <div class="row">
-        <div class="col-lg-6 text-light banner-section">
-          <h6>T2 PERFORMANCE TRANSIT SERVICE</h6>
-          <h2>Analyze transit data from
-          </h2>
-          <h2>vehicle performance on routes</h2>
-
-          <a href="demo.html"><button>Requset a demo</button></a>
+  
+      <nav class="site-nav">
+        <div class="container">
+          <div class="site-navigation  d-flex justify-content-between">
+            <a href="index.html" class="logo m-0"
+              ><img src="images/logo white.png" width="200" alt="" />
+              <span class="text-primary"></span
+            ></a>
+  
+            <ul
+              class="js-clone-nav d-none d-lg-inline-block text-left site-menu float-right"
+            >
+              <li class="active"><a href="index.html">GTFS</a></li>
+              <li><a href="services.html">Resources</a></li>
+              <li><a href="pricing.html">Pricing</a></li>
+              <!-- <li><a href="about.html">About</a></li> -->
+              
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Transit Services <span class="caret"></span
+                ></a>
+                <ul class="dropdown-menu">
+                  <!-- Dropdown menu items -->
+                  <li><a href="t1-enroute.html"> T1 Enroute </a></li>
+                  <li><a href="t2.html">T2 Performance </a></li>
+                  <li><a href="t3.html">T3 Schedules </a></li>
+                  <li><a href="t4.html">T4 GTFS Static </a></li>
+                  <li><a href="t5.html">T5 GTFS Realtime </a></li>
+                  <li><a href="t6.html">T6 Operations </a></li>
+                  <li><a href="t7.html">T7 Insights </a></li>
+                  <li><a href="t8.html">T8 Governance </a></li>
+                </ul>
+              </li>
+  
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Company <span class="caret"></span
+                ></a>
+                <ul class="dropdown-menu">
+                  <!-- Dropdown menu items -->
+  
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+              </li>
+  
+              &nbsp; &nbsp;
+              <li><a href="Sign-up.html">Login</a></li>
+            </ul>
+  
+            <a
+              href="#"
+              class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-none light"
+              data-toggle="collapse"
+              data-target="#main-navbar"
+            >
+              <span></span>
+            </a>
+          </div>
         </div>
-        <div class="col-lg-4">
-          <div class="map-circle">
-            <img src="images/images.entour/insights.png" alt="" />
+      </nav>
+    </header>
+    <main>
+      <div class="t2-banner overflow-hidden">
+        <div class="row">
+          <div class="col-lg-6 text-light banner-section">
+            <h6>T2 PERFORMANCE TRANSIT SERVICE</h6>
+            <h2>Analyze transit data from 
+            </h2>
+            <h2>vehicle performance on routes</h2>
+           
+            <a href="demo.html"><button>Requset a demo</button></a>
+          </div>
+          <div class="col-lg-4">
+            <div class="map-circle">
+              <img src="images/images.entour/insights.png" alt="" />
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- information section -->
+      <!-- information section -->
 
     <div class="t2-information-section">
       <div class="container mt-lg-5">
@@ -395,10 +426,10 @@
               <div class="widget">
                 <h3 class="heading"><strong>Pages</strong></h3>
                 <ul class="links list-unstyled">
-                  <li><a href="javascript:void(0)">GTFS</a></li>
-                  <li><a href="javascript:void(0)">Resources</a></li>
-                  <li><a href="javascript:void(0)">Partner</a></li>
-                  <li><a href="javascript:void(0)">Login</a></li>
+                  <li><a href="#">GTFS</a></li>
+                  <li><a href="#">Resources</a></li>
+                  
+                  <li><a href="#">Login</a></li>
                 </ul>
               </div>
             </div>

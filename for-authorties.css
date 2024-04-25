@@ -87,10 +87,7 @@
     padding: 28px;
    }
 
-   /* .imagetext */
-   .images-text{
-    background-color: #031C86;
-   }
+  
    .side-image-one img{
     height: 250px;
     width: auto;
@@ -215,6 +212,14 @@ main img {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+.image-text-section{
+  background-color: #0C2C9D !important;
+}
+.image-insight img{
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
 }
 /* social icons */
 .social-icons .icons a{

@@ -25,15 +25,15 @@
     />
     <link rel="stylesheet" href="css/style.css" />
 
-    <link rel="stylesheet" href="t5.css" />
+    <link rel="stylesheet" href="for-operators.css" />
   </head>
 
   <body>
     <header>
       <!-- place navbar here -->
-      <nav class="site-nav">
+      <nav class="site-nav d-flex justify-content-between">
         <div class="container">
-          <div class="site-navigation">
+          <div class="site-navigation  d-flex justify-content-between">
             <a href="index.html" class="logo m-0"
               ><img src="images/logo white.png" width="200" alt="" />
               <span class="text-primary"></span
@@ -44,9 +44,9 @@
             >
               <li class="active"><a href="index.html">GTFS</a></li>
               <li><a href="services.html">Resources</a></li>
-              <li><a href="services.html">Pricing</a></li>
+              <li><a href="pricing.html">Pricing</a></li>
               <li><a href="about.html">About</a></li>
-              <li><a href="about.html">Partners</a></li>
+              
               <li class="dropdown">
                 <a
                   href="#"
@@ -145,6 +145,111 @@
         </div>
       </div>
 
+      <!-- cards with images -->
+      <div class="cards-container" style="padding: 22px">
+        <div class="row">
+          <div class="col-lg card-img cards p-2 text-center">
+            <div class="card" style="width: 14rem">
+              <div
+                class="card-body d-flex justify-content-center align-items-center flex-column"
+              >
+                <h3>T1 Enroute</h3>
+                <p class="card-text">
+                  Digitalize the transit network and connect vehicles to collect
+                  performance data along routes.
+                </p>
+                <a href="t1-enroute.html">Learn more > </a>
+                <img
+                  class="card-img-top object-fit-cover"
+                  src="images/images.entour/Skärmavbild+2023-01-03+kl.+13.37.55.png"
+                  alt="Card image cap"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg card-img cards p-2 text-center">
+            <div class="card" style="width: 14rem">
+              <div
+                class="card-body d-flex justify-content-center align-items-center flex-column"
+              >
+                <h3>T2 Performance</h3>
+                <p class="card-text">
+                  Visualize and analyze collected transit data from vehicle
+                  performances on operating routes.
+                </p>
+                <a href="t2.html">Learn more > </a>
+                <img
+                  class="card-img-top object-fit-cover"
+                  src="images/images.entour/Frequency+and+vehicles+1.0.png"
+                  alt="Card image cap"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg card-img cards p-2 text-center">
+            <div class="card" style="width: 14rem">
+              <div
+                class="card-body d-flex justify-content-center align-items-center flex-column"
+              >
+                <h3>T3 Schedules</h3>
+                <p class="card-text">
+                  Create Dynamic GTFS Schedules and adjust frequency needs based
+                  on the number of vehicles.
+                </p>
+                <a href="t1-enroute.html">Learn more > </a>
+                <img
+                  class="card-img-top object-fit-cover"
+                  src="images/images.entour/Frequency+and+vehicles+2.0.png"
+                  alt="Card image cap"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg card-img cards p-2 text-center">
+            <div class="card" style="width: 14rem">
+              <div
+                class="card-body d-flex justify-content-center align-items-center flex-column"
+              >
+                <h3>T6 Operations</h3>
+                <p class="card-text">
+                  Optimize assignments and dispatch, as well as make necessary
+                  changes in real-time. Optimize schedule.
+                </p>
+                <a href="t1-enroute.html">Learn more > </a>
+                <img
+                  class="card-img-top object-fit-cover"
+                  src="images/images.entour/T6+Operations+Transit+service+-+Enrouteq.jpeg"
+                  alt="Card image cap"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg card-img cards p-2 text-center">
+            <div class="card" style="width: 14rem">
+              <div
+                class="card-body d-flex justify-content-center align-items-center flex-column"
+              >
+                <h3>T7 Insights</h3>
+                <p class="card-text">
+                  Understand your fleet performance and effectively visualize
+                  and analyze historical data. Insight services.
+                </p>
+                <a href="t1-enroute.html">Learn more > </a>
+                <img
+                  class="card-img-top object-fit-cover"
+                  src="images/images.entour/insights.png"
+                  alt="Card image cap"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- image with text -->
       <div class="images-text p-5 mt-5">
         <div class="row p-4">
@@ -159,13 +264,17 @@
             </p>
           </div>
           <div class="col-lg-6 side-image-one align-content-end">
-            <img src="images/images.entour/denden.png" alt="Image" style="height: 350px;" />
+            <img
+              src="images/images.entour/denden.png"
+              alt="Image"
+              style="height: 350px"
+            />
           </div>
         </div>
         <div class="row p-4">
           <div class="col-lg-6 image-2">
             <img
-              src="images/images.entour/settings-devices (1).png"
+              src="images/images.entour/connect2route (1).png"
               class=""
               style="height: 250px; width: auto"
               alt=""
@@ -182,101 +291,30 @@
             </p>
           </div>
         </div>
-        <div class="row p-4">
-          <div class="col-lg-6 text-light fs-6">
-            <h3>Publish GTFS Realtime feeds</h3>
-            <p>
-              Publish the GTFS Realtime data feeds, including live vehicle
-              positions, trip updates and service alerts from our eQconnect®
-              cloud transit dashboard to a local city server or external
-              repository. This facilitates the sharing of real-time updates with
-              relevant 3rd party stakeholders, urban mobility platforms and trip
-              planning apps, and even integrates seamlessly with platforms like
-              Google Maps.
-            </p>
-          </div>
-          <div class="col-lg-6 side-image">
-            <img src="images/images.entour/TRANSIT+APP.png" alt="" />
-          </div>
-        </div>
       </div>
-      <!-- transit services packages -->
-      <div class="transit-services">
-        <div class="container text-center mt-5">
-          <h1>Transit service packages</h1>
-          <p>
-            Our transit service packages are designed to facilitate high
-            utilization of your data, catering to your needs.
-          </p>
-          <div class="Transit-service-packages overflow-hidden mt-5">
-            <div class="row p-5">
-              <div
-                class="col-lg-5 d-flex align-items-center justify-content-center"
-              >
-                <div class="container">
-                  <ul class="accordion">
-                    <li class="mb-2">
-                      <h4><strong>service packages</strong></h4>
-                    </li>
 
-                    <li class="accordion__item">
-                      <a href="#" class="accordion__link">
-                        GTFS Realtime package
-                      </a>
-                      <ul class="sub-accordion">
-                        <li class="sub-accordion__item">
-                          Within our GTFS Realtime package, you will find a
-                          range of transit services, including T1 Enroute, T2
-                          Performance, T3 Schedules, T4 GTFS Static, and T5 GTFS
-                          Realtime. This comprehensive package provides you with
-                          all the essential tools required to easily create and
-                          distribute GTFS Realtime feeds.
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="accordion__item">
-                      <a href="#" class="accordion__link">
-                        Operations package
-                      </a>
-                      <ul class="sub-accordion">
-                        <li class="sub-accordion__item">
-                          Our Operations package offers the full spectrum of our
-                          transit services, encompassing T1 Enroute, T2
-                          Performance, T3 Schedules, T4 GTFS Static, T5 GTFS
-                          Realtime, and T6 Operations. These services are
-                          essential for effective operations control, enabling
-                          you to manage your entire vehicle fleet successfully.
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-lg-6 image-GTF d-flex">
-                <img src="images/images.entour/Performance_2.png" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
       <!-- two images -->
       <div class="two-images-section overflow-hidden">
         <div class="row p-5 g-3">
           <div
             class="col-lg-6 t3-schedule text-light d-flex justify-content-center align-items-center flex-column"
           >
-            <h4>Insights into public transport</h4>
-            <h1>T8 Governance</h1>
-            <button class="btn-two-images-section">Learn more</button>
+            <h4>Optimize operations</h4>
+            <h1>T6 Operations</h1>
+            <a href="t6.html"
+              ><button class="btn-two-images-section">Learn more</button></a
+            >
             <!-- <img src="images/images.entour/performance.png" alt=""> -->
           </div>
           <div
             class="col-lg-6 text-light t4-gtfs-static d-flex justify-content-center align-items-center flex-column"
           >
-            <h4>Make transit data available</h4>
-            <h1>For authorities</h1>
-            <a href="for-authories.html"
-              ><button class="btn-two-images-section">Learn more</button></a
+            <h4>Cost control and efficiency</h4>
+            <h1>T7 Insights</h1>
+            <a href="t7.html"
+              ><a href="t7.html"
+                ><button class="btn-two-images-section">Learn more</button></a
+              ></a
             >
           </div>
         </div>
@@ -362,7 +400,7 @@
                   <ul class="links list-unstyled">
                     <li><a href="#">GTFS</a></li>
                     <li><a href="#">Resources</a></li>
-                    <li><a href="#">Partner</a></li>
+                    
                     <li><a href="#">Login</a></li>
                   </ul>
                 </div>
