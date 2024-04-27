@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+
+.container-pricing{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 3rem;
+    font-size: 17px;
+}
+.faq__accordian-wrapper {
+	max-width: 1140px;
+	margin: 0 auto;
+	padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+}
+.faq__accordion-content p {
+	margin: 0;
+}
+.faq__accordian-heading {
+	background-color: #eeeeee;
+	padding: 10px 30px 10px 45px;
+	display: block;
+	margin-bottom: 15px;
+	position: relative;
+	font-weight: 500;
+	text-decoration: navajowhite;
+	color: #919191;
+    border-radius: 10px;
+}
+.faq__accordian-heading::before {
+	content: "\f059";
+	color: #ff6c3a;
+	font-family: fontawesome;
+	position: absolute;
+	left: 20px;
+	top: 50%;
+	-webkit-transition: 0.3s linear all;
+	-moz-transition: 0.3s linear all;
+	-ms-transition: 0.3s linear all;
+	-o-transition: 0.3s linear all;
+	transition: 0.3s linear all;
+	-webkit-transform: translateY(-50%) rotate(0deg);
+	-moz-transform: translateY(-50%) rotate(0deg);
+	-ms-transform: translateY(-50%) rotate(0deg);
+	-o-transform: translateY(-50%) rotate(0deg);
+	transform: translateY(-50%) rotate(0deg);
+}
+.faq__accordian-heading.active {
+	background-color: #ff6c3a;
+	color: #ffffff;
+    border-radius: 20px;
+}
+.faq__accordian-heading.active::before {
+	-webkit-transition: 0.3s linear all;
+	-moz-transition: 0.3s linear all;
+	-ms-transition: 0.3s linear all;
+	-o-transition: 0.3s linear all;
+	transition: 0.3s linear all;
+	-webkit-transform: translateY(-50%) rotate(360deg);
+	-moz-transform: translateY(-50%) rotate(360deg);
+	-ms-transform: translateY(-50%) rotate(360deg);
+	-o-transform: translateY(-50%) rotate(360deg);
+	transform: translateY(-50%) rotate(360deg);
+}
+.faq__accordian-heading.active::before {
+	color: #ffffff;
+
+}
+.faq__accordion-content {
+	display: none;
+	padding: 10px 20px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1024px) { 
+    /* STYLES HERE */
+	.container-pricing{
+		max-width: 800px;
+		margin: 0 auto;
+		margin-top: 3rem;
+		font-size: 17px;
+	}
+	.container-heading img{
+		height: 200px;
+	}
+	.container-pricing{
+		margin-left: 20px;
+		margin-right: 20px;
+		/* margin: 0 auto; */
+	}
+}

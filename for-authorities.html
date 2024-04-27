@@ -20,10 +20,18 @@
 
 <body>
   <header>
-    <!-- place navbar here -->
-    <nav class="site-nav">
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close">
+          <span class="icofont-close js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+
+    <nav class="site-nav ">
       <div class="container">
-        <div class="site-navigation">
+        <div class="site-navigation d-flex justify-content-between">
           <a href="index.html" class="logo m-0"><img src="images/logo white.png" width="200" alt="" />
             <span class="text-primary"></span></a>
 
@@ -31,10 +39,10 @@
             <li class="active"><a href="index.html">GTFS</a></li>
             <li><a href="services.html">Resources</a></li>
             <li><a href="pricing.html">Pricing</a></li>
-            <li><a href="about.html">About</a></li>
-            
+
+            <!-- <li><a href="#">Partners</a></li> -->
             <li class="dropdown">
-              <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                 aria-expanded="false">Transit Services <span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <!-- Dropdown menu items -->
@@ -57,6 +65,17 @@
 
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                aria-expanded="false">FAQs <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <!-- Dropdown menu items -->
+
+                <li><a href="pricingFAQs.html">Pricing FAQs</a></li>
+                <li><a href="accountUserFAQs.html">Account & User FAQs</a></li>
+                <li><a href="DataGuarantee.html">Data Guarantee </a></li>
               </ul>
             </li>
 
@@ -247,56 +266,55 @@
       </div>
     </div>
 
-     
-      <!-- two images -->
-      <div class="two-images-section overflow-hidden">
-        <div class="row p-5 g-3">
-          <div class="col-lg-6 t3-schedule text-light d-flex justify-content-center align-items-center flex-column">
-            <h4>Insights into public transport
-            </h4>
-            <h1>T8 Governance</h1>
-            <a href="t8.html"><button class="btn-two-images-section">Learn more</button></a>
-            <!-- <img src="images/images.entour/performance.png" alt=""> -->
-          </div>
-          <div class="col-lg-6 text-light t4-gtfs-static d-flex justify-content-center align-items-center flex-column">
-            <h4>More riders. More revenue.
-            </h4>
-            <h1>T5 GTFS Realtime
-            </h1>
-            <a href="t5.html"><button class="btn-two-images-section">Learn more</button></a>
-          </div>
+
+    <!-- two images -->
+    <div class="two-images-section overflow-hidden">
+      <div class="row p-5 g-3">
+        <div class="col-lg-6 t3-schedule text-light d-flex justify-content-center align-items-center flex-column">
+          <h4>Insights into public transport
+          </h4>
+          <h1>T8 Governance</h1>
+          <a href="t8.html"><button class="btn-two-images-section">Learn more</button></a>
+          <!-- <img src="images/images.entour/performance.png" alt=""> -->
+        </div>
+        <div class="col-lg-6 text-light t4-gtfs-static d-flex justify-content-center align-items-center flex-column">
+          <h4>More riders. More revenue.
+          </h4>
+          <h1>T5 GTFS Realtime
+          </h1>
+          <a href="t5.html"><button class="btn-two-images-section">Learn more</button></a>
         </div>
       </div>
-      <!-- social media icons -->
-      <div class="social-icons">
-        <div class="container text-center">
-          <h3>Stay connected with Bus Mate</h3>
-          <p>Follow us in all our channels</p>
-          <div class="icons mt-4">
-            <ul class="list-unstyled d-flex justify-content-evenly align-items-center fs-2">
-              <a href="javascript:void(0)">
-                <li><i class="fa-brands fa-facebook"></i></li>
-              </a>
-              <a href="javascript:void(0)">
-                <li><i class="fa-brands fa-instagram"></i></li>
-              </a>
-              <a href="javascript:void(0)">
-                <li><i class="fa-brands fa-twitter"></i></li>
-              </a>
-              <a href="javascript:void(0)">
-                <li><i class="fa-brands fa-linkedin"></i></li>
-              </a>
-              <a href="javascript:void(0)">
-                <li><i class="fa-brands fa-youtube"></i></li>
-              </a>
-            </ul>
-          </div>
+    </div>
+    <!-- social media icons -->
+    <div class="social-icons">
+      <div class="container text-center">
+        <h3>Stay connected with Bus Mate</h3>
+        <p>Follow us in all our channels</p>
+        <div class="icons mt-4">
+          <ul class="list-unstyled d-flex justify-content-evenly align-items-center fs-2">
+            <a href="javascript:void(0)">
+              <li><i class="fa-brands fa-facebook"></i></li>
+            </a>
+            <a href="javascript:void(0)">
+              <li><i class="fa-brands fa-instagram"></i></li>
+            </a>
+            <a href="javascript:void(0)">
+              <li><i class="fa-brands fa-twitter"></i></li>
+            </a>
+            <a href="javascript:void(0)">
+              <li><i class="fa-brands fa-linkedin"></i></li>
+            </a>
+            <a href="javascript:void(0)">
+              <li><i class="fa-brands fa-youtube"></i></li>
+            </a>
+          </ul>
         </div>
+      </div>
       <!-- social media icons -->
   </main>
 
   <footer>
-    <!-- footer start -->
     <div class="site-footer">
       <div class="inner first">
         <div class="container">
@@ -313,28 +331,28 @@
               <div class="widget">
                 <ul class="list-unstyled social">
                   <li>
-                    <a href="javascript:void(0)"><span class="icon-twitter"></span></a>
+                    <a href="#"><span class="icon-twitter"></span></a>
                   </li>
                   <li>
-                    <a href="javascript:void(0)"><span class="icon-instagram"></span></a>
+                    <a href="#"><span class="icon-instagram"></span></a>
                   </li>
                   <li>
-                    <a href="javascript:void(0)"><span class="icon-facebook"></span></a>
+                    <a href="#"><span class="icon-facebook"></span></a>
                   </li>
                   <li>
-                    <a href="javascript:void(0)"><span class="icon-linkedin"></span></a>
+                    <a href="#"><span class="icon-linkedin"></span></a>
                   </li>
                   <li>
-                    <a href="javascript:void(0)"><span class="icon-dribbble"></span></a>
+                    <a href="#"><span class="icon-dribbble"></span></a>
                   </li>
                   <li>
-                    <a href="javascript:void(0)"><span class="icon-pinterest"></span></a>
+                    <a href="#"><span class="icon-pinterest"></span></a>
                   </li>
                   <li>
-                    <a href="javascript:void(0)"><span class="icon-apple"></span></a>
+                    <a href="#"><span class="icon-apple"></span></a>
                   </li>
                   <li>
-                    <a href="javascript:void(0)"><span class="icon-google"></span></a>
+                    <a href="#"><span class="icon-google"></span></a>
                   </li>
                 </ul>
               </div>
@@ -343,10 +361,21 @@
               <div class="widget">
                 <h3 class="heading"><strong>Pages</strong></h3>
                 <ul class="links list-unstyled">
-                  <li><a href="javascript:void(0)">GTFS</a></li>
-                  <li><a href="javascript:void(0)">Resources</a></li>
-                  <li><a href="javascript:void(0)">Partner</a></li>
-                  <li><a href="javascript:void(0)">Login</a></li>
+                  <li><a href="index.html">GTFS</a></li>
+                  <li><a href="services.html">Resources</a></li>
+
+                  <li><a href="Sign-in.html">Login</a></li>
+                  <li><a href="privacy.html">Privacy Policy</a></li>
+                  <li><a href="TermofUse.html">Term of Use</a></li>
+                </ul>
+              </div>
+
+              <div class="widget">
+                <h3 class="heading"><strong>FAQs</strong></h3>
+                <ul class="links list-unstyled">
+                  <li><a href="pricingFAQs.html">Pricing</a></li>
+                  <li><a href="accountUserFAQs.html">Account & Users</a></li>
+                  <li><a href="DataGuarantee.html">Data Guarantee</a></li>
                 </ul>
               </div>
             </div>
@@ -369,10 +398,10 @@
               <div class="widget">
                 <h3 class="heading"><strong>Contact</strong></h3>
                 <ul class="list-unstyled quick-info links">
-                  <li class="email"><a href="javascript:void(0)">mail@example.com</a></li>
-                  <li class="phone"><a href="javascript:void(0)">+1 222 212 3819</a></li>
+                  <li class="email"><a href="#">mail@example.com</a></li>
+                  <li class="phone"><a href="#">+1 222 212 3819</a></li>
                   <li class="address">
-                    <a href="javascript:void(0)">43 Raymouth Rd. Baltemoer, Australia 3910</a>
+                    <a href="#">43 Raymouth Rd. Baltemoer, Australia 3910</a>
                   </li>
                 </ul>
               </div>
@@ -400,7 +429,6 @@
         </div>
       </div>
     </div>
-    <!-- footer end -->
   </footer>
 
   <!-- Bootstrap JavaScript Libraries -->

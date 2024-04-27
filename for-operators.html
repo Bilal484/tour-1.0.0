@@ -1,64 +1,360 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>For operators</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
 
-    <!-- Bootstrap CSS v5.2.1 -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="css/style.css" />
+<head>
+  <title>For operators</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <link rel="stylesheet" href="for-operators.css" />
-  </head>
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css" />
 
-  <body>
-    <header>
-      <!-- place navbar here -->
-      <nav class="site-nav d-flex justify-content-between">
+  <link rel="stylesheet" href="for-operators.css" />
+</head>
+
+<body>
+  <header>
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close">
+          <span class="icofont-close js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+
+    <nav class="site-nav ">
+      <div class="container">
+        <div class="site-navigation d-flex justify-content-between">
+          <a href="index.html" class="logo m-0"><img src="images/logo white.png" width="200" alt="" />
+            <span class="text-primary"></span></a>
+
+          <ul class="js-clone-nav d-none d-lg-inline-block text-left site-menu float-right">
+            <li class="active"><a href="index.html">GTFS</a></li>
+            <li><a href="services.html">Resources</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+
+            <!-- <li><a href="#">Partners</a></li> -->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                aria-expanded="false">Transit Services <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <!-- Dropdown menu items -->
+                <li><a href="t1-enroute.html"> T1 Enroute </a></li>
+                <li><a href="t2.html">T2 Performance </a></li>
+                <li><a href="t3.html">T3 Schedules </a></li>
+                <li><a href="t4.html">T4 GTFS Static </a></li>
+                <li><a href="t5.html">T5 GTFS Realtime </a></li>
+                <li><a href="t6.html">T6 Operations </a></li>
+                <li><a href="t7.html">T7 Insights </a></li>
+                <li><a href="t8.html">T8 Governance </a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                aria-expanded="false">Company <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <!-- Dropdown menu items -->
+
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                aria-expanded="false">FAQs <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <!-- Dropdown menu items -->
+
+                <li><a href="pricingFAQs.html">Pricing FAQs</a></li>
+                <li><a href="accountUserFAQs.html">Account & User FAQs</a></li>
+                <li><a href="DataGuarantee.html">Data Guarantee </a></li>
+              </ul>
+            </li>
+
+            &nbsp; &nbsp;
+            <li><a href="Sign-up.html">Login</a></li>
+          </ul>
+
+          <a href="#" class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-none light"
+            data-toggle="collapse" data-target="#main-navbar">
+            <span></span>
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="t5-banner overflow-hidden">
+      <div class="row">
+        <div class="col-lg-6 text-light banner-section">
+          <h6>PUBLIC TRANSPORT OPERATORS</h6>
+          <h2>Digitilize, optimize and visualize</h2>
+          <h2>your daily operations with</h2>
+          <h2>GTFS data</h2>
+
+          <a href="demo.html"><button>Requset a demo</button></a>
+        </div>
+        <div class="col-lg-4">
+          <div class="map-circle">
+            <img src="images/images.entour/enrouteq.jpg" alt="Image" class="object-fit-cover" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- information section -->
+
+    <div class="t2-information-section">
+      <div class="container mt-lg-5">
+        <div class="img-heading text-center">
+          <h1 class="ms-3">Manage your buses in real-time and improve</h1>
+          <h1>operational efficiency.</h1>
+        </div>
+        <p class="text-center fs-5 p-5 text-secondary">
+          Create and visualize your transit network and connect buses in
+          real-time with our eQconnect® platform. Oversee the daily operations
+          of assigned vehicles on routes or schedules. The platform allows the
+          seamless export of GTFS Realtime data and service alerts, providing
+          essential performance statistics crucial for effective operations
+          governance.
+        </p>
+      </div>
+    </div>
+
+    <!-- cards with images -->
+    <div class="cards-container" style="padding: 22px">
+      <div class="row">
+        <div class="col-lg card-img cards p-2 text-center">
+          <div class="card" style="width: 14rem">
+            <div class="card-body d-flex justify-content-center align-items-center flex-column">
+              <h3>T1 Enroute</h3>
+              <p class="card-text">
+                Digitalize the transit network and connect vehicles to collect
+                performance data along routes.
+              </p>
+              <a href="t1-enroute.html">Learn more > </a>
+              <img class="card-img-top object-fit-cover"
+                src="images/images.entour/Skärmavbild+2023-01-03+kl.+13.37.55.png" alt="Card image cap" />
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg card-img cards p-2 text-center">
+          <div class="card" style="width: 14rem">
+            <div class="card-body d-flex justify-content-center align-items-center flex-column">
+              <h3>T2 Performance</h3>
+              <p class="card-text">
+                Visualize and analyze collected transit data from vehicle
+                performances on operating routes.
+              </p>
+              <a href="t2.html">Learn more > </a>
+              <img class="card-img-top object-fit-cover" src="images/images.entour/Frequency+and+vehicles+1.0.png"
+                alt="Card image cap" />
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg card-img cards p-2 text-center">
+          <div class="card" style="width: 14rem">
+            <div class="card-body d-flex justify-content-center align-items-center flex-column">
+              <h3>T3 Schedules</h3>
+              <p class="card-text">
+                Create Dynamic GTFS Schedules and adjust frequency needs based
+                on the number of vehicles.
+              </p>
+              <a href="t1-enroute.html">Learn more > </a>
+              <img class="card-img-top object-fit-cover" src="images/images.entour/Frequency+and+vehicles+2.0.png"
+                alt="Card image cap" />
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg card-img cards p-2 text-center">
+          <div class="card" style="width: 14rem">
+            <div class="card-body d-flex justify-content-center align-items-center flex-column">
+              <h3>T6 Operations</h3>
+              <p class="card-text">
+                Optimize assignments and dispatch, as well as make necessary
+                changes in real-time. Optimize schedule.
+              </p>
+              <a href="t1-enroute.html">Learn more > </a>
+              <img class="card-img-top object-fit-cover"
+                src="images/images.entour/T6+Operations+Transit+service+-+Enrouteq.jpeg" alt="Card image cap" />
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg card-img cards p-2 text-center">
+          <div class="card" style="width: 14rem">
+            <div class="card-body d-flex justify-content-center align-items-center flex-column">
+              <h3>T7 Insights</h3>
+              <p class="card-text">
+                Understand your fleet performance and effectively visualize
+                and analyze historical data. Insight services.
+              </p>
+              <a href="t1-enroute.html">Learn more > </a>
+              <img class="card-img-top object-fit-cover" src="images/images.entour/insights.png" alt="Card image cap" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- image with text -->
+    <div class="images-text p-5 mt-5">
+      <div class="row p-4">
+        <div class="col-lg-6 text-light fs-6">
+          <h3 class="">Real-time data</h3>
+          <p>
+            Real-time data empowers operations management to optimize
+            assignments, dispatch, and make changes in real-time. This enables
+            better business-making by monitoring the balance between buses and
+            passengers, while also identifying the most efficient and
+            essential routes.
+          </p>
+        </div>
+        <div class="col-lg-6 side-image-one align-content-end">
+          <img src="images/images.entour/denden.png" alt="Image" style="height: 350px" />
+        </div>
+      </div>
+      <div class="row p-4">
+        <div class="col-lg-6 image-2">
+          <img src="images/images.entour/connect2route (1).png" class="" style="height: 250px; width: auto" alt="" />
+        </div>
+        <div class="col-lg-6 text-light fs-6">
+          <h3>Generate and validate GTFS Realtime data</h3>
+          <p>
+            Generate GTFS Realtime feeds by using GPS device updates from the
+            vehicles. The system constantly monitors and aligns the vehicle's
+            location with its scheduled service journey in real-time. Service
+            alerts can be managed either within the eQconnect® dashboard or
+            through a partner dashboard.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- two images -->
+    <div class="two-images-section overflow-hidden">
+      <div class="row p-5 g-3">
+        <div class="col-lg-6 t3-schedule text-light d-flex justify-content-center align-items-center flex-column">
+          <h4>Optimize operations</h4>
+          <h1>T6 Operations</h1>
+          <a href="t6.html"><button class="btn-two-images-section">Learn more</button></a>
+          <!-- <img src="images/images.entour/performance.png" alt=""> -->
+        </div>
+        <div class="col-lg-6 text-light t4-gtfs-static d-flex justify-content-center align-items-center flex-column">
+          <h4>Cost control and efficiency</h4>
+          <h1>T7 Insights</h1>
+          <a href="t7.html"><a href="t7.html"><button class="btn-two-images-section">Learn more</button></a></a>
+        </div>
+      </div>
+    </div>
+    <!-- social media icons -->
+    <div class="social-icons">
+      <div class="container text-center">
+        <h3>Stay connected with Bus Mate</h3>
+        <p>Follow us in all our channels</p>
+        <div class="icons mt-4">
+          <ul class="list-unstyled d-flex justify-content-evenly align-items-center fs-2">
+            <a href="#">
+              <li><i class="fa-brands fa-facebook"></i></li>
+            </a>
+            <a href="#">
+              <li><i class="fa-brands fa-instagram"></i></li>
+            </a>
+            <a href="#">
+              <li><i class="fa-brands fa-twitter"></i></li>
+            </a>
+            <a href="#">
+              <li><i class="fa-brands fa-linkedin"></i></li>
+            </a>
+            <a href="#">
+              <li><i class="fa-brands fa-youtube"></i></li>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- social media icons -->
+  </main>
+
+  <footer>
+    <div class="site-footer">
+      <div class="inner first">
         <div class="container">
-          <div class="site-navigation  d-flex justify-content-between">
-            <a href="index.html" class="logo m-0"
-              ><img src="images/logo white.png" width="200" alt="" />
-              <span class="text-primary"></span
-            ></a>
+          <div class="row">
+            <div class="col-md-6 col-lg-4">
+              <div class="widget">
+                <h3 class="heading"><strong>About Tour</strong></h3>
+                <p class="text-dark">
+                  Far far away, behind the word mountains, far from the
+                  countries Vokalia and Consonantia, there live the blind
+                  texts.
+                </p>
+              </div>
+              <div class="widget">
+                <ul class="list-unstyled social">
+                  <li>
+                    <a href="#"><span class="icon-twitter"></span></a>
+                  </li>
+                  <li>
+                    <a href="#"><span class="icon-instagram"></span></a>
+                  </li>
+                  <li>
+                    <a href="#"><span class="icon-facebook"></span></a>
+                  </li>
+                  <li>
+                    <a href="#"><span class="icon-linkedin"></span></a>
+                  </li>
+                  <li>
+                    <a href="#"><span class="icon-dribbble"></span></a>
+                  </li>
+                  <li>
+                    <a href="#"><span class="icon-pinterest"></span></a>
+                  </li>
+                  <li>
+                    <a href="#"><span class="icon-apple"></span></a>
+                  </li>
+                  <li>
+                    <a href="#"><span class="icon-google"></span></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-2 pl-lg-5">
+              <div class="widget">
+                <h3 class="heading"><strong>Pages</strong></h3>
+                <ul class="links list-unstyled">
+                  <li><a href="index.html">GTFS</a></li>
+                  <li><a href="services.html">Resources</a></li>
 
-            <ul
-              class="js-clone-nav d-none d-lg-inline-block text-left site-menu float-right"
-            >
-              <li class="active"><a href="index.html">GTFS</a></li>
-              <li><a href="services.html">Resources</a></li>
-              <li><a href="pricing.html">Pricing</a></li>
-              <li><a href="about.html">About</a></li>
-              
-              <li class="dropdown">
-                <a
-                  href="#"
-                  class="dropdown-toggle"
-                  data-toggle="dropdown"
-                  role="button"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                  >Transit Services <span class="caret"></span
-                ></a>
-                <ul class="dropdown-menu">
-                  <!-- Dropdown menu items -->
+                  <li><a href="Sign-in.html">Login</a></li>
+                  <li><a href="privacy.html">Privacy Policy</a></li>
+                  <li><a href="TermofUse.html">Term of Use</a></li>
+                </ul>
+              </div>
+
+              <div class="widget">
+                <h3 class="heading"><strong>FAQs</strong></h3>
+                <ul class="links list-unstyled">
+                  <li><a href="pricingFAQs.html">Pricing</a></li>
+                  <li><a href="accountUserFAQs.html">Account & Users</a></li>
+                  <li><a href="DataGuarantee.html">Data Guarantee</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-2">
+              <div class="widget">
+                <h3 class="heading"><strong> Transit Services </strong></h3>
+                <ul class="links list-unstyled">
                   <li><a href="t1-enroute.html"> T1 Enroute </a></li>
                   <li><a href="t2.html">T2 Performance </a></li>
                   <li><a href="t3.html">T3 Schedules </a></li>
@@ -68,408 +364,54 @@
                   <li><a href="t7.html">T7 Insights </a></li>
                   <li><a href="t8.html">T8 Governance </a></li>
                 </ul>
-              </li>
-
-              <li class="dropdown">
-                <a
-                  href="#"
-                  class="dropdown-toggle"
-                  data-toggle="dropdown"
-                  role="button"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                  >Company <span class="caret"></span
-                ></a>
-                <ul class="dropdown-menu">
-                  <!-- Dropdown menu items -->
-
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="contact.html">Contact Us</a></li>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="widget">
+                <h3 class="heading"><strong>Contact</strong></h3>
+                <ul class="list-unstyled quick-info links">
+                  <li class="email"><a href="#">mail@example.com</a></li>
+                  <li class="phone"><a href="#">+1 222 212 3819</a></li>
+                  <li class="address">
+                    <a href="#">43 Raymouth Rd. Baltemoer, Australia 3910</a>
+                  </li>
                 </ul>
-              </li>
-
-              &nbsp; &nbsp;
-              <li><a href="Sign-up.html">Login</a></li>
-            </ul>
-
-            <a
-              href="#"
-              class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-none light"
-              data-toggle="collapse"
-              data-target="#main-navbar"
-            >
-              <span></span>
-            </a>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <main>
-      <div class="t5-banner overflow-hidden">
-        <div class="row">
-          <div class="col-lg-6 text-light banner-section">
-            <h6>PUBLIC TRANSPORT OPERATORS</h6>
-            <h2>Digitilize, optimize and visualize</h2>
-            <h2>your daily operations with</h2>
-            <h2>GTFS data</h2>
-
-            <a href="demo.html"><button>Requset a demo</button></a>
-          </div>
-          <div class="col-lg-4">
-            <div class="map-circle">
-              <img
-                src="images/images.entour/enrouteq.jpg"
-                alt="Image"
-                class="object-fit-cover"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- information section -->
-
-      <div class="t2-information-section">
-        <div class="container mt-lg-5">
-          <div class="img-heading text-center">
-            <h1 class="ms-3">Manage your buses in real-time and improve</h1>
-            <h1>operational efficiency.</h1>
-          </div>
-          <p class="text-center fs-5 p-5 text-secondary">
-            Create and visualize your transit network and connect buses in
-            real-time with our eQconnect® platform. Oversee the daily operations
-            of assigned vehicles on routes or schedules. The platform allows the
-            seamless export of GTFS Realtime data and service alerts, providing
-            essential performance statistics crucial for effective operations
-            governance.
-          </p>
-        </div>
-      </div>
-
-      <!-- cards with images -->
-      <div class="cards-container" style="padding: 22px">
-        <div class="row">
-          <div class="col-lg card-img cards p-2 text-center">
-            <div class="card" style="width: 14rem">
-              <div
-                class="card-body d-flex justify-content-center align-items-center flex-column"
-              >
-                <h3>T1 Enroute</h3>
-                <p class="card-text">
-                  Digitalize the transit network and connect vehicles to collect
-                  performance data along routes.
-                </p>
-                <a href="t1-enroute.html">Learn more > </a>
-                <img
-                  class="card-img-top object-fit-cover"
-                  src="images/images.entour/Skärmavbild+2023-01-03+kl.+13.37.55.png"
-                  alt="Card image cap"
-                />
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg card-img cards p-2 text-center">
-            <div class="card" style="width: 14rem">
-              <div
-                class="card-body d-flex justify-content-center align-items-center flex-column"
-              >
-                <h3>T2 Performance</h3>
-                <p class="card-text">
-                  Visualize and analyze collected transit data from vehicle
-                  performances on operating routes.
-                </p>
-                <a href="t2.html">Learn more > </a>
-                <img
-                  class="card-img-top object-fit-cover"
-                  src="images/images.entour/Frequency+and+vehicles+1.0.png"
-                  alt="Card image cap"
-                />
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg card-img cards p-2 text-center">
-            <div class="card" style="width: 14rem">
-              <div
-                class="card-body d-flex justify-content-center align-items-center flex-column"
-              >
-                <h3>T3 Schedules</h3>
-                <p class="card-text">
-                  Create Dynamic GTFS Schedules and adjust frequency needs based
-                  on the number of vehicles.
-                </p>
-                <a href="t1-enroute.html">Learn more > </a>
-                <img
-                  class="card-img-top object-fit-cover"
-                  src="images/images.entour/Frequency+and+vehicles+2.0.png"
-                  alt="Card image cap"
-                />
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg card-img cards p-2 text-center">
-            <div class="card" style="width: 14rem">
-              <div
-                class="card-body d-flex justify-content-center align-items-center flex-column"
-              >
-                <h3>T6 Operations</h3>
-                <p class="card-text">
-                  Optimize assignments and dispatch, as well as make necessary
-                  changes in real-time. Optimize schedule.
-                </p>
-                <a href="t1-enroute.html">Learn more > </a>
-                <img
-                  class="card-img-top object-fit-cover"
-                  src="images/images.entour/T6+Operations+Transit+service+-+Enrouteq.jpeg"
-                  alt="Card image cap"
-                />
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg card-img cards p-2 text-center">
-            <div class="card" style="width: 14rem">
-              <div
-                class="card-body d-flex justify-content-center align-items-center flex-column"
-              >
-                <h3>T7 Insights</h3>
-                <p class="card-text">
-                  Understand your fleet performance and effectively visualize
-                  and analyze historical data. Insight services.
-                </p>
-                <a href="t1-enroute.html">Learn more > </a>
-                <img
-                  class="card-img-top object-fit-cover"
-                  src="images/images.entour/insights.png"
-                  alt="Card image cap"
-                />
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- image with text -->
-      <div class="images-text p-5 mt-5">
-        <div class="row p-4">
-          <div class="col-lg-6 text-light fs-6">
-            <h3 class="">Real-time data</h3>
-            <p>
-              Real-time data empowers operations management to optimize
-              assignments, dispatch, and make changes in real-time. This enables
-              better business-making by monitoring the balance between buses and
-              passengers, while also identifying the most efficient and
-              essential routes.
-            </p>
-          </div>
-          <div class="col-lg-6 side-image-one align-content-end">
-            <img
-              src="images/images.entour/denden.png"
-              alt="Image"
-              style="height: 350px"
-            />
-          </div>
-        </div>
-        <div class="row p-4">
-          <div class="col-lg-6 image-2">
-            <img
-              src="images/images.entour/connect2route (1).png"
-              class=""
-              style="height: 250px; width: auto"
-              alt=""
-            />
-          </div>
-          <div class="col-lg-6 text-light fs-6">
-            <h3>Generate and validate GTFS Realtime data</h3>
-            <p>
-              Generate GTFS Realtime feeds by using GPS device updates from the
-              vehicles. The system constantly monitors and aligns the vehicle's
-              location with its scheduled service journey in real-time. Service
-              alerts can be managed either within the eQconnect® dashboard or
-              through a partner dashboard.
-            </p>
-          </div>
-        </div>
-      </div>
+      <div class="inner dark copy-right-color">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-md-8 mb-3 mb-md-0 mx-auto">
+              <p class="text-dark">
+                Copyright &copy;
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                . All Rights Reserved. &mdash;
 
-      <!-- two images -->
-      <div class="two-images-section overflow-hidden">
-        <div class="row p-5 g-3">
-          <div
-            class="col-lg-6 t3-schedule text-light d-flex justify-content-center align-items-center flex-column"
-          >
-            <h4>Optimize operations</h4>
-            <h1>T6 Operations</h1>
-            <a href="t6.html"
-              ><button class="btn-two-images-section">Learn more</button></a
-            >
-            <!-- <img src="images/images.entour/performance.png" alt=""> -->
-          </div>
-          <div
-            class="col-lg-6 text-light t4-gtfs-static d-flex justify-content-center align-items-center flex-column"
-          >
-            <h4>Cost control and efficiency</h4>
-            <h1>T7 Insights</h1>
-            <a href="t7.html"
-              ><a href="t7.html"
-                ><button class="btn-two-images-section">Learn more</button></a
-              ></a
-            >
-          </div>
-        </div>
-      </div>
-      <!-- social media icons -->
-      <div class="social-icons">
-        <div class="container text-center">
-          <h3>Stay connected with Bus Mate</h3>
-          <p>Follow us in all our channels</p>
-          <div class="icons mt-4">
-            <ul
-              class="list-unstyled d-flex justify-content-evenly align-items-center fs-2"
-            >
-              <a href="#"
-                ><li><i class="fa-brands fa-facebook"></i></li
-              ></a>
-              <a href="#"
-                ><li><i class="fa-brands fa-instagram"></i></li
-              ></a>
-              <a href="#"
-                ><li><i class="fa-brands fa-twitter"></i></li
-              ></a>
-              <a href="#"
-                ><li><i class="fa-brands fa-linkedin"></i></li
-              ></a>
-              <a href="#"
-                ><li><i class="fa-brands fa-youtube"></i></li
-              ></a>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <!-- social media icons -->
-    </main>
-
-    <footer>
-      <!-- footer start -->
-      <div class="site-footer">
-        <div class="inner first">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-6 col-lg-4">
-                <div class="widget">
-                  <h3 class="heading"><strong>About Tour</strong></h3>
-                  <p class="text-dark">
-                    Far far away, behind the word mountains, far from the
-                    countries Vokalia and Consonantia, there live the blind
-                    texts.
-                  </p>
-                </div>
-                <div class="widget">
-                  <ul class="list-unstyled social">
-                    <li>
-                      <a href="#"><span class="icon-twitter"></span></a>
-                    </li>
-                    <li>
-                      <a href="#"><span class="icon-instagram"></span></a>
-                    </li>
-                    <li>
-                      <a href="#"><span class="icon-facebook"></span></a>
-                    </li>
-                    <li>
-                      <a href="#"><span class="icon-linkedin"></span></a>
-                    </li>
-                    <li>
-                      <a href="#"><span class="icon-dribbble"></span></a>
-                    </li>
-                    <li>
-                      <a href="#"><span class="icon-pinterest"></span></a>
-                    </li>
-                    <li>
-                      <a href="#"><span class="icon-apple"></span></a>
-                    </li>
-                    <li>
-                      <a href="#"><span class="icon-google"></span></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-2 pl-lg-5">
-                <div class="widget">
-                  <h3 class="heading"><strong>Pages</strong></h3>
-                  <ul class="links list-unstyled">
-                    <li><a href="#">GTFS</a></li>
-                    <li><a href="#">Resources</a></li>
-                    
-                    <li><a href="#">Login</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-2">
-                <div class="widget">
-                  <h3 class="heading"><strong> Transit Services </strong></h3>
-                  <ul class="links list-unstyled">
-                    <li><a href="t1-enroute.html"> T1 Enroute </a></li>
-                    <li><a href="t2.html">T2 Performance </a></li>
-                    <li><a href="t3.html">T3 Schedules </a></li>
-                    <li><a href="t4.html">T4 GTFS Static </a></li>
-                    <li><a href="t5.html">T5 GTFS Realtime </a></li>
-                    <li><a href="t6.html">T6 Operations </a></li>
-                    <li><a href="t7.html">T7 Insights </a></li>
-                    <li><a href="t8.html">T8 Governance </a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-4">
-                <div class="widget">
-                  <h3 class="heading"><strong>Contact</strong></h3>
-                  <ul class="list-unstyled quick-info links">
-                    <li class="email"><a href="#">mail@example.com</a></li>
-                    <li class="phone"><a href="#">+1 222 212 3819</a></li>
-                    <li class="address">
-                      <a href="#">43 Raymouth Rd. Baltemoer, Australia 3910</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="inner dark copy-right-color">
-          <div class="container">
-            <div class="row text-center">
-              <div class="col-md-8 mb-3 mb-md-0 mx-auto">
-                <p class="text-dark">
-                  Copyright &copy;
-                  <script>
-                    document.write(new Date().getFullYear());
-                  </script>
-                  . All Rights Reserved. &mdash;
-
-                  <!-- License information: https://untree.co/license/ -->
-                  <a href="index.html" target="_blank">Bus Mate</a>
-                </p>
-              </div>
+                <!-- License information: https://untree.co/license/ -->
+                <a href="index.html" target="_blank">Bus Mate</a>
+              </p>
             </div>
           </div>
         </div>
       </div>
-      <!-- footer end -->
-    </footer>
+    </div>
+  </footer>
 
-    <!-- Bootstrap JavaScript Libraries -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-      crossorigin="anonymous"
-    ></script>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-      crossorigin="anonymous"
-    ></script>
-    <script src="t1.js"></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+  <script src="t1.js"></script>
+</body>
+
 </html>
