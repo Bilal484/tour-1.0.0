@@ -1,76 +1,801 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="author" content="Untree.co" />
-    <link rel="shortcut icon" href="favicon.png" />
 
-    <meta name="description" content="" />
-    <meta name="keywords" content="bootstrap, bootstrap4" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="author" content="Untree.co" />
+  <link rel="shortcut icon" href="favicon.png" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Source+Serif+Pro:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+  <meta name="description" content="" />
+  <meta name="keywords" content="bootstrap, bootstrap4" />
 
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
-    <link rel="stylesheet" href="fonts/icomoon/style.css" />
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css" />
-    <link rel="stylesheet" href="css/daterangepicker.css" />
-    <link rel="stylesheet" href="css/aos.css" />
-    <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Source+Serif+Pro:wght@400;700&display=swap"
+    rel="stylesheet" />
 
-    <title>Tour Free Bootstrap Template for Travel Agency by Untree.co</title>
-  </head>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+  <link rel="stylesheet" href="fonts/icomoon/style.css" />
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css" />
+  <link rel="stylesheet" href="css/daterangepicker.css" />
+  <link rel="stylesheet" href="css/aos.css" />
+  <link rel="stylesheet" href="css/style.css" />
 
-  <body>
-    <header>
-      <div class="site-mobile-menu site-navbar-target">
-        <div class="site-mobile-menu-header">
-          <div class="site-mobile-menu-close">
-            <span class="icofont-close js-menu-toggle"></span>
+  <title>Tour Free Bootstrap Template for Travel Agency by Untree.co</title>
+</head>
+
+<body>
+  <header>
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close">
+          <span class="icofont-close js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+
+    <nav class="site-nav ">
+      <div class="container">
+        <div class="site-navigation d-flex justify-content-between">
+          <a href="index.html" class="logo m-0"><img src="images/logo white.png" width="200" alt="" />
+            <span class="text-primary"></span></a>
+
+          <ul class="js-clone-nav d-none d-lg-inline-block text-left site-menu float-right">
+            <li class="active"><a href="index.html">GTFS</a></li>
+            <li><a href="services.html">Resources</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+
+
+            <!-- <li><a href="#">Partners</a></li> -->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                aria-expanded="false">Transit Services <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <!-- Dropdown menu items -->
+                <li><a href="t1-enroute.html"> T1 Enroute </a></li>
+                <li><a href="t2.html">T2 Performance </a></li>
+                <li><a href="t3.html">T3 Schedules </a></li>
+                <li><a href="t4.html">T4 GTFS Static </a></li>
+                <li><a href="t5.html">T5 GTFS Realtime </a></li>
+                <li><a href="t6.html">T6 Operations </a></li>
+                <li><a href="t7.html">T7 Insights </a></li>
+                <li><a href="t8.html">T8 Governance </a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                aria-expanded="false">Company <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <!-- Dropdown menu items -->
+
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+            </li>
+            <li><a href="partner.html">Partner</a></li>
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                aria-expanded="false">FAQs <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <!-- Dropdown menu items -->
+
+                <li><a href="pricingFAQs.html">Pricing FAQs</a></li>
+                <li><a href="accountUserFAQs.html">Account & User FAQs</a></li>
+                <li><a href="DataGuarantee.html">Data Guarantee </a></li>
+              </ul>
+            </li>
+
+            &nbsp; &nbsp;
+            <li><a href="Sign-up.html">Login</a></li>
+          </ul>
+
+          <a href="#" class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-none light"
+            data-toggle="collapse" data-target="#main-navbar">
+            <span></span>
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container-fluid p-0 home-slider">
+    <div class="row align-items-center">
+      <div class="col-lg-12">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="hero slider-1">
+                <div class="container">
+                  <div class="row align-items-center">
+                    <div class="col-lg-8">
+                      <div class="intro-wrap">
+                        <h1 class="mb-3">Making GTFS files simple</h1>
+                        <h4>
+                          Ideal for transport operators who need a GTFS file
+                        </h4>
+                        <p>General Transit Feed Specification (GTFS)</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="hero slider-2">
+                <div class="container">
+                  <div class="row align-items-center">
+                    <div class="col-lg-8">
+                      <div class="intro-wrap">
+                        <h1 class="mb-3">Making GTFS files simple</h1>
+                        <h4>
+                          Ideal for transport operators who need a GTFS file
+                        </h4>
+                        <p>General Transit Feed Specification (GTFS)</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="hero slider-3">
+                <div class="container">
+                  <div class="row align-items-center">
+                    <div class="col-lg-8">
+                      <div class="intro-wrap">
+                        <h1 class="mb-3">Making GTFS files simple</h1>
+                        <h4>
+                          Ideal for transport operators who need a GTFS file
+                        </h4>
+                        <p>General Transit Feed Specification (GTFS)</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <!-- <span class="sr-only">Previous</span> -->
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <!-- <span class="sr-only">Next</span> -->
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="untree_co-section">
+    <div class="container">
+      <div class="row mb-5 justify-content-center">
+        <div class="col-lg-6 text-center">
+          <h2 class="section-title text-center mb-3">Our Services</h2>
+        </div>
+      </div>
+      <div class="row align-items-stretch">
+        <div class="col-lg-4 order-lg-1">
+          <div class="h-100">
+            <div class="frame h-100">
+              <div class="feature-img-bg h-100" style="background-image: url('images/5.jpg')"></div>
+            </div>
           </div>
         </div>
-        <div class="site-mobile-menu-body"></div>
+
+        <div class="col-6 col-sm-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-1">
+          <div class="feature-1 d-md-flex">
+            <div class="align-self-center">
+              <!-- <span class="flaticon-house display-4 text-primary"></span> -->
+              <img src="images/icons/shopping-cart.png" width="70" class="display-4 pb-1" alt="" />
+              <h3>Operators</h3>
+            </div>
+          </div>
+
+          <div class="feature-1">
+            <div class="align-self-center">
+              <img src="images/icons/box.png" width="70" class="display-4 pb-3" alt="" />
+
+              <h3>Planners</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-sm-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-3">
+          <div class="feature-1 d-md-flex">
+            <div class="align-self-center">
+              <img src="images/icons/plane.png" width="70" class="display-4 pb-1" alt="" />
+              <h3>Logistics</h3>
+            </div>
+          </div>
+
+          <div class="feature-1 d-md-flex">
+            <div class="align-self-center">
+              <img src="images/icons/delivery.png" width="70" class="display-4 pb-1" alt="" />
+              <h3>Transport Scheduling</h3>
+            </div>
+          </div>
+        </div>
       </div>
-  
-      <nav class="site-nav ">
+    </div>
+  </div>
+
+  <!-- map -->
+
+  <div class="untree_co-section">
+    <div class="container">
+      <div class="row mb-5 justify-content-center">
+        <div class="col-lg-6 text-center">
+          <h2 class="section-title text-center mb-3">Route Planner</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div id="map"></div>
+      </div>
+    </div>
+  </div>
+  <!-- tools -->
+  <div class="untree_co-section pb-0">
+    <div class="container">
+      <div class="row mb-5 justify-content-center">
+        <div class="col-lg-6 text-center">
+          <h2 class="section-title text-center mb-3">Our Tools</h2>
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="col-6 col-md-6 col-lg-4">
+          <div class="service text-center">
+            <img src="images/icons/online.png" width="60" alt="" class="mb-3" />
+            <a href="">
+              <h3>Service Frequency Calculator</h3>
+            </a>
+            <p>
+              Calculate and convert service frequency to trips per hour and
+              vice versa
+            </p>
+            <a href="">more details</a>
+          </div>
+        </div>
+        <div class="col-6 col-md-6 col-lg-4">
+          <div class="service text-center">
+            <img src="images/icons/speedometer.png" width="60" alt="" class="mb-3" />
+            <a href="">
+              <h3>Average Speed Calculator Tool</h3>
+            </a>
+            <p>Calculates the Average Speed based on time and distance</p>
+            <a href="">more details</a>
+          </div>
+        </div>
+        <div class="col-6 col-md-6 col-lg-4">
+          <div class="service text-center">
+            <img src="images/icons/calculator.png" width="60" alt="" class="mb-3" />
+            <a href="">
+              <h3>Service Charter Cost Calculator</h3>
+            </a>
+            <p>
+              Calculate the service cost based on time and distance variables
+            </p>
+            <a href="">more details</a>
+          </div>
+        </div>
+        <div class="col-6 col-md-6 col-lg-4 my-5">
+          <div class="service text-center">
+            <img src="images/icons/car.png" width="60" alt="" class="mb-3" />
+            <a href="">
+              <h3>Peak Vehicle Estimator</h3>
+            </a>
+            <p>
+              Enter the travel time, layover time, service frequency and we
+              will estimate the number of vehicles required
+            </p>
+            <a href="">more details</a>
+          </div>
+        </div>
+        <div class="col-6 col-md-6 col-lg-4 my-5">
+          <div class="service text-center">
+            <img src="images/icons/hand.png" width="60" alt="" class="mb-3" />
+            <a href="">
+              <h3>Bus Stop Capacity Check</h3>
+            </a>
+            <p>
+              This tool checks if all scheduled services can be accommodated
+              efficiently within the bus stop
+            </p>
+            <a href="">more details</a>
+          </div>
+        </div>
+        <div class="col-6 col-md-6 col-lg-4 my-5">
+          <div class="service text-center">
+            <img src="images/icons/online.png" width="60" alt="" class="mb-3" />
+            <a href="">
+              <h3>Average Fleet Age</h3>
+            </a>
+            <p>
+              Calculate the Average Age of your fleet and check you are
+              meeting any age requirements
+            </p>
+            <a href="">more details</a>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-6 col-lg-4 my-5">
+          <div class="service text-center">
+            <img src="images/icons/bus.png" width="60" alt="" class="mb-3" />
+            <a href="">
+              <h3>Bus Stop Design & Sketch</h3>
+            </a>
+            <p>
+              Create a sketch of a bus stop including draw in & out and see
+              how many buses it can accommodate
+            </p>
+            <a href="">more details</a>
+          </div>
+        </div>
+        <div class="col-6 col-md-6 col-lg-4 my-5">
+          <div class="service text-center">
+            <img src="images/icons/map.png" width="60" alt="" class="mb-3" />
+            <a href="">
+              <h3>Route Map</h3>
+            </a>
+            <p>
+              This tool creates a route between two or more locations and
+              includes distances and time estimates
+            </p>
+            <a href="">more details</a>
+          </div>
+        </div>
+        <div class="col-6 col-md-6 col-lg-4 my-5">
+          <div class="service text-center">
+            <img src="images/icons/calendar.png" width="60" alt="" class="mb-3" />
+            <a href="">
+              <h3>Timetable Creator</h3>
+            </a>
+            <p>
+              Create a transit timetable within minutes by entering a few
+              variables, no experience required
+            </p>
+            <a href="">more details</a>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-6 col-lg-4 my-5">
+          <div class="service text-center">
+            <img src="images/icons/online.png" width="60" alt="" class="mb-3" />
+            <a href="">
+              <h3>Vehicle Block Creator</h3>
+            </a>
+            <p>
+              Create Vehicle Shifts quickly and easily. Includes a
+              comprehensive breakdown of distance, hours, peak buses and costs
+            </p>
+            <a href="">more details</a>
+          </div>
+        </div>
+        <div class="col-6 col-md-6 col-lg-4 my-5">
+          <div class="service text-center">
+            <img src="images/icons/timetable.png" width="60" alt="" class="mb-3" />
+            <a href="">
+              <h3>Multiple Stop Timetable</h3>
+            </a>
+            <p>
+              Create a detailed transit timetables with multiple stops and
+              variable running times easily and efficiently
+            </p>
+            <a href="">more details</a>
+          </div>
+        </div>
+        <div class="col-6 col-md-6 col-lg-4 my-5">
+          <div class="service text-center">
+            <img src="images/icons/expectation.png" width="60" alt="" class="mb-3" />
+            <a href="">
+              <h3>Travel Time Analyser</h3>
+            </a>
+            <p>
+              Quickly identify how long it takes to travel between multiple
+              locations at different times of the day
+            </p>
+            <a href="">more details</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- counter 2 -->
+  <div class="untree_co-section mt-0 pt-0">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 text-center">
+          <h2 class="section-title text-center mb-3">Statistics</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="projectFacts" class="sectionClass">
+    <div class="fullWidth eight columns">
+      <div class="projectFactsWrap">
+        <div class="item wow fadeInUpBig animated animated" data-number="12" style="visibility: visible">
+          <i class="fa fa-briefcase"></i>
+          <p id="number1" class="number" data-count="12">12</p>
+          <span></span>
+          <p>Number of Tools</p>
+        </div>
+        <div class="item wow fadeInUpBig animated animated" data-number="55" style="visibility: visible">
+          <i class="fa fa-gear"></i>
+          <p id="number2" class="number" data-count="4440">4440</p>
+          <span></span>
+          <p>Resources</p>
+        </div>
+        <div class="item wow fadeInUpBig animated animated" data-number="359" style="visibility: visible">
+          <i class="fa fa-user"></i>
+          <p id="number3" class="number" data-count="359">359</p>
+          <span></span>
+          <p>Satisfied Clients</p>
+        </div>
+        <div class="item wow fadeInUpBig animated animated" data-number="246" style="visibility: visible">
+          <i class="fa-regular fa-face-smile"></i>
+          <p id="number4" class="number" data-count="246">246</p>
+          <span></span>
+          <p>Problems Solved</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- pricinng cards  -->
+  <div class="untree_co-section pb-0 mb-0">
+    <div class="row text-center justify-content-center mb-5">
+      <div class="col-lg-7">
+        <p class="mb-0">Affordable Tools & Calculators</p>
+        <h2 class="section-title text-center">Our Pricing Plans</h2>
+      </div>
+    </div>
+    <div class="demo">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="pricingTable">
+              <h3 class="title">Bronze</h3>
+              <div class="price-value">
+                <span class="currency">$</span>
+                <span class="amount">20.00</span>
+                <span class="month">/month per user</span>
+              </div>
+              <ul class="pricing-content">
+                <li><b>Agencies:</b> 1</li>
+                <li><b>Stops:</b> Unlimited</li>
+                <li><b>Routes</b> 2</li>
+                <li><b>Import/export</b> Unlimited</li>
+              </ul>
+              <a href="#" class="pricingTable-signup">Buy Now</a>
+              <a href="#" class="pricingTable-signup">Try For Free</a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="pricingTable pink">
+              <h3 class="title">Silver</h3>
+              <div class="price-value">
+                <span class="currency">$</span>
+                <span class="amount">45.00</span>
+                <span class="month">/month per user</span>
+              </div>
+              <ul class="pricing-content">
+                <li><b>Agencies:</b> 1</li>
+                <li><b>Stops:</b> Unlimited</li>
+                <li><b>Routes</b> 5</li>
+                <li><b>Import/export</b> Unlimited</li>
+              </ul>
+              <a href="#" class="pricingTable-signup">Buy Now</a>
+              <a href="#" class="pricingTable-signup">Try For Free</a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="pricingTable blue">
+              <h3 class="title">Gold</h3>
+              <div class="price-value">
+                <span class="currency">$</span>
+                <span class="amount">150.00</span>
+                <span class="month">/month per user</span>
+              </div>
+              <ul class="pricing-content">
+                <li><b>Agencies:</b> 2</li>
+                <li><b>Stops:</b> Unlimited</li>
+                <li><b>Routes</b> 20 combined</li>
+                <li><b>Import/export</b> Unlimited</li>
+              </ul>
+              <a href="#" class="pricingTable-signup">Buy Now</a>
+              <a href="#" class="pricingTable-signup">Try For Free</a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="pricingTable platinium">
+              <h3 class="title">Platinum</h3>
+              <div class="price-value">
+                <span class="currency">$</span>
+                <span class="amount">300.0</span>
+                <span class="month">/month per user</span>
+              </div>
+              <ul class="pricing-content">
+                <li><b>Agencies:</b> 4</li>
+                <li><b>Stops:</b> Unlimited</li>
+                <li><b>Routes</b> 50 combined</li>
+                <li><b>Import/export</b> Unlimited</li>
+              </ul>
+              <a href="#" class="pricingTable-signup">Buy Now</a>
+              <a href="#" class="pricingTable-signup">Try For Free</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- privcing ends -->
+
+  <div class="untree_co-section testimonial-section mt-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-7 text-center">
+          <h2 class="section-title text-center mb-5">Testimonials</h2>
+
+          <div class="owl-single owl-carousel no-nav">
+            <div class="testimonial mx-auto">
+              <figure class="img-wrap">
+                <img src="images/person_2.jpg" alt="Image" class="img-fluid" />
+              </figure>
+              <h3 class="name">Adam Aderson</h3>
+              <blockquote>
+                <p>
+                  &ldquo;There live the blind texts. Separated they live in
+                  Bookmarksgrove right at the coast of the Semantics, a large
+                  language ocean.&rdquo;
+                </p>
+              </blockquote>
+            </div>
+
+            <div class="testimonial mx-auto">
+              <figure class="img-wrap">
+                <img src="images/person_3.jpg" alt="Image" class="img-fluid" />
+              </figure>
+              <h3 class="name">Lukas Devlin</h3>
+              <blockquote>
+                <p>
+                  &ldquo;There live the blind texts. Separated they live in
+                  Bookmarksgrove right at the coast of the Semantics, a large
+                  language ocean.&rdquo;
+                </p>
+              </blockquote>
+            </div>
+
+            <div class="testimonial mx-auto">
+              <figure class="img-wrap">
+                <img src="images/person_4.jpg" alt="Image" class="img-fluid" />
+              </figure>
+              <h3 class="name">Kayla Bryant</h3>
+              <blockquote>
+                <p>
+                  &ldquo;There live the blind texts. Separated they live in
+                  Bookmarksgrove right at the coast of the Semantics, a large
+                  language ocean.&rdquo;
+                </p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="untree_co-section">
+    <div class="container">
+      <div class="row justify-content-center text-center mb-5">
+        <div class="col-lg-6">
+          <h2 class="section-title text-center mb-3">
+            Resources to help transport operators
+          </h2>
+          <p>Need to be able to filter by topic</p>
+        </div>
+      </div>
+      <div class="row gap-2">
+        <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0 p-0 p-md-5">
+          <div class="media-1">
+            <a href="#" class="d-block mb-3"><img src="images/tool_bus.jpg" width="100%" alt="Image"
+                class="img-fluid" /></a>
+            <!-- <span class="d-flex align-items-center loc mb-2">
+							<span class="icon-room mr-3"></span>
+							<span>Italy</span>
+						</span> -->
+            <div class="d-flex align-items-center justify-content-center">
+              <div>
+                <h3><a href="#">GTFS Buider</a></h3>
+                <div class="price ml-auto">
+                  <span>Edit Agency Details</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0 p-0 p-md-5">
+          <div class="media-1">
+            <a href="#" class="d-block mb-3"><img src="images/logo_card.jpg" width="100%" alt="Image"
+                class="img-fluid" /></a>
+            <!-- <span class="d-flex align-items-center loc mb-2">
+							<span class="icon-room mr-3"></span>
+							<span>United States</span>
+						</span> -->
+            <div class="d-flex align-items-center justify-content-center mt-5">
+              <div>
+                <h3><a href="#">GTFS Buider</a></h3>
+                <div class="price ml-auto">
+                  <span>Edit Agency Details</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0 p-0 p-md-5">
+          <div class="media-1">
+            <a href="#" class="d-block mb-3"><img src="images/logo_card.jpg" width="100%" alt="Image"
+                class="img-fluid" /></a>
+            <!-- <span class="d-flex align-items-center loc mb-2">
+							<span class="icon-room mr-3"></span>
+							<span>United States</span>
+						</span> -->
+            <div class="d-flex align-items-center justify-content-center mt-5">
+              <div>
+                <h3><a href="#">GTFS Buider</a></h3>
+                <div class="price ml-auto">
+                  <span>Edit Agency Details</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="untree_co-section">
+    <div class="container">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-lg-6">
+          <figure class="img-play-video">
+            <a id="play-video" class="video-play-button" href="https://www.youtube.com/watch?v=IeardDdWcQk"
+              data-fancybox>
+              <span></span>
+            </a>
+            <img src="images/abt.jpg" alt="Image" class="img-fluid rounded-20 h-100" />
+          </figure>
+        </div>
+
+        <div class="col-lg-5">
+          <h2 class="section-title text-left mb-4">
+            Take a look at our service
+          </h2>
+          <p>
+            Take a moment to explore our range of services designed to enhance
+            your travel experience. From convenient booking options to
+            luxurious onboard amenities, we prioritize your comfort and
+            satisfaction every step of the way. Discover how Bus Mate can
+            elevate your journey and create unforgettable travel memories.
+          </p>
+
+          <ul class="list-unstyled two-col clearfix">
+            <li>Service Frequency Calculator</li>
+            <li>Average Speed Calculator Tool</li>
+            <li>Service Charter Cost Calculator</li>
+            <li>Peak Vehicle Estimator</li>
+            <li>Bus Stop Capacity Check</li>
+            <li>Average Fleet Age</li>
+            <li>Route Map</li>
+            <li>Timetable Creator</li>
+            <!-- <li>Insurance</li>
+              <li>Guide Books</li> -->
+          </ul>
+
+          <p><a href="#" class="btn btn-primary">Get Started</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="py-5 cta-section">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-12">
+          <h2 class="mb-2 text-white">
+            Lets you Explore the Best. Contact Us Now
+          </h2>
+          <p class="mb-4 lead text-white text-white-opacity">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Excepturi, fugit?
+          </p>
+          <p class="mb-0">
+            <a href="booking.html" class="btn btn-outline-white text-white btn-md font-weight-bold">Get in touch</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer start -->
+  <footer>
+    <div class="site-footer">
+      <div class="inner first">
         <div class="container">
-          <div class="site-navigation d-flex justify-content-between">
-            <a href="index.html" class="logo m-0"
-              ><img src="images/logo white.png" width="200" alt="" />
-              <span class="text-primary"></span
-            ></a>
-  
-            <ul
-              class="js-clone-nav d-none d-lg-inline-block text-left site-menu float-right"
-            >
-              <li class="active"><a href="index.html">GTFS</a></li>
-              <li><a href="services.html">Resources</a></li>
-              <li><a href="pricing.html">Pricing</a></li>
-  
-              <!-- <li><a href="#">Partners</a></li> -->
-              <li class="dropdown">
-                <a
-                  href="#"
-                  class="dropdown-toggle"
-                  data-toggle="dropdown"
-                  role="button"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                  >Transit Services <span class="caret"></span
-                ></a>
-                <ul class="dropdown-menu">
-                  <!-- Dropdown menu items -->
+          <div class="row">
+            <div class="col-md-6 col-lg-4">
+              <div class="widget">
+                <h3 class="heading"><strong>About Tour</strong></h3>
+                <p class="text-dark">
+                  Far far away, behind the word mountains, far from the
+                  countries Vokalia and Consonantia, there live the blind
+                  texts.
+                </p>
+              </div>
+              <div class="widget">
+                <ul class="list-unstyled social">
+                  <li>
+                    <a href="#"><span class="icon-twitter"></span></a>
+                  </li>
+                  <li>
+                    <a href="#"><span class="icon-instagram"></span></a>
+                  </li>
+                  <li>
+                    <a href="#"><span class="icon-facebook"></span></a>
+                  </li>
+                  <li>
+                    <a href="#"><span class="icon-linkedin"></span></a>
+                  </li>
+                  <li>
+                    <a href="#"><span class="icon-dribbble"></span></a>
+                  </li>
+                  <li>
+                    <a href="#"><span class="icon-pinterest"></span></a>
+                  </li>
+                  <li>
+                    <a href="#"><span class="icon-apple"></span></a>
+                  </li>
+                  <li>
+                    <a href="#"><span class="icon-google"></span></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-2 pl-lg-5">
+              <div class="widget">
+                <h3 class="heading"><strong>Pages</strong></h3>
+                <ul class="links list-unstyled">
+                  <li><a href="index.html">GTFS</a></li>
+                  <li><a href="services.html">Resources</a></li>
+
+                  <li><a href="Sign-in.html">Login</a></li>
+                  <li><a href="privacy.html">Privacy Policy</a></li>
+                  <li><a href="TermofUse.html">Term of Use</a></li>
+                </ul>
+              </div>
+
+              <div class="widget">
+                <h3 class="heading"><strong>FAQs</strong></h3>
+                <ul class="links list-unstyled">
+                  <li><a href="pricingFAQs.html">Pricing</a></li>
+                  <li><a href="accountUserFAQs.html">Account & Users</a></li>
+                  <li><a href="DataGuarantee.html">Data Guarantee</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-2">
+              <div class="widget">
+                <h3 class="heading"><strong> Transit Services </strong></h3>
+                <ul class="links list-unstyled">
                   <li><a href="t1-enroute.html"> T1 Enroute </a></li>
                   <li><a href="t2.html">T2 Performance </a></li>
                   <li><a href="t3.html">T3 Schedules </a></li>
@@ -80,1125 +805,247 @@
                   <li><a href="t7.html">T7 Insights </a></li>
                   <li><a href="t8.html">T8 Governance </a></li>
                 </ul>
-              </li>
-  
-              <li class="dropdown">
-                <a
-                  href="#"
-                  class="dropdown-toggle"
-                  data-toggle="dropdown"
-                  role="button"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                  >Company <span class="caret"></span
-                ></a>
-                <ul class="dropdown-menu">
-                  <!-- Dropdown menu items -->
-  
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="contact.html">Contact Us</a></li>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="widget">
+                <h3 class="heading"><strong>Contact</strong></h3>
+                <ul class="list-unstyled quick-info links">
+                  <li class="email"><a href="#">mail@example.com</a></li>
+                  <li class="phone"><a href="#">+1 222 212 3819</a></li>
+                  <li class="address">
+                    <a href="#">43 Raymouth Rd. Baltemoer, Australia 3910</a>
+                  </li>
                 </ul>
-              </li>
-              <li class="dropdown">
-                <a
-                  href="#"
-                  class="dropdown-toggle"
-                  data-toggle="dropdown"
-                  role="button"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                  >FAQs <span class="caret"></span
-                ></a>
-                <ul class="dropdown-menu">
-                  <!-- Dropdown menu items -->
-  
-                  <li><a href="pricingFAQs.html">Pricing FAQs</a></li>
-                  <li><a href="accountUserFAQs.html">Account & User FAQs</a></li>
-                  <li><a href="DataGuarantee.html">Data Guarantee </a></li>
-                </ul>
-              </li>
-  
-              &nbsp; &nbsp;
-              <li><a href="Sign-up.html">Login</a></li>
-            </ul>
-  
-            <a
-              href="#"
-              class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-none light"
-              data-toggle="collapse"
-              data-target="#main-navbar"
-            >
-              <span></span>
-            </a>
-          </div>
-        </div>
-      </nav>
-    </header>
-   
-    <div class="container-fluid p-0 home-slider">
-      <div class="row align-items-center">
-        <div class="col-lg-12">
-          <div
-            id="carouselExampleIndicators"
-            class="carousel slide"
-            data-ride="carousel"
-          >
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="hero slider-1">
-                  <div class="container">
-                    <div class="row align-items-center">
-                      <div class="col-lg-8">
-                        <div class="intro-wrap">
-                          <h1 class="mb-3">Making GTFS files simple</h1>
-                          <h4>
-                            Ideal for transport operators who need a GTFS file
-                          </h4>
-                          <p>General Transit Feed Specification (GTFS)</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="hero slider-2">
-                  <div class="container">
-                    <div class="row align-items-center">
-                      <div class="col-lg-8">
-                        <div class="intro-wrap">
-                          <h1 class="mb-3">Making GTFS files simple</h1>
-                          <h4>
-                            Ideal for transport operators who need a GTFS file
-                          </h4>
-                          <p>General Transit Feed Specification (GTFS)</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="hero slider-3">
-                  <div class="container">
-                    <div class="row align-items-center">
-                      <div class="col-lg-8">
-                        <div class="intro-wrap">
-                          <h1 class="mb-3">Making GTFS files simple</h1>
-                          <h4>
-                            Ideal for transport operators who need a GTFS file
-                          </h4>
-                          <p>General Transit Feed Specification (GTFS)</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <a
-              class="carousel-control-prev"
-              href="#carouselExampleIndicators"
-              role="button"
-              data-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <!-- <span class="sr-only">Previous</span> -->
-            </a>
-            <a
-              class="carousel-control-next"
-              href="#carouselExampleIndicators"
-              role="button"
-              data-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <!-- <span class="sr-only">Next</span> -->
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="untree_co-section">
-      <div class="container">
-        <div class="row mb-5 justify-content-center">
-          <div class="col-lg-6 text-center">
-            <h2 class="section-title text-center mb-3">Our Services</h2>
-          </div>
-        </div>
-        <div class="row align-items-stretch">
-          <div class="col-lg-4 order-lg-1">
-            <div class="h-100">
-              <div class="frame h-100">
-                <div
-                  class="feature-img-bg h-100"
-                  style="background-image: url('images/5.jpg')"
-                ></div>
-              </div>
-            </div>
-          </div>
-
-          <div
-            class="col-6 col-sm-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-1"
-          >
-            <div class="feature-1 d-md-flex">
-              <div class="align-self-center">
-                <!-- <span class="flaticon-house display-4 text-primary"></span> -->
-                <img
-                  src="images/icons/shopping-cart.png"
-                  width="70"
-                  class="display-4 pb-1"
-                  alt=""
-                />
-                <h3>Operators</h3>
-              </div>
-            </div>
-
-            <div class="feature-1">
-              <div class="align-self-center">
-                <img
-                  src="images/icons/box.png"
-                  width="70"
-                  class="display-4 pb-3"
-                  alt=""
-                />
-
-                <h3>Planners</h3>
-              </div>
-            </div>
-          </div>
-
-          <div
-            class="col-6 col-sm-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-3"
-          >
-            <div class="feature-1 d-md-flex">
-              <div class="align-self-center">
-                <img
-                  src="images/icons/plane.png"
-                  width="70"
-                  class="display-4 pb-1"
-                  alt=""
-                />
-                <h3>Logistics</h3>
-              </div>
-            </div>
-
-            <div class="feature-1 d-md-flex">
-              <div class="align-self-center">
-                <img
-                  src="images/icons/delivery.png"
-                  width="70"
-                  class="display-4 pb-1"
-                  alt=""
-                />
-                <h3>Transport Scheduling</h3>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- map -->
-
-    <div class="untree_co-section">
-      <div class="container">
-        <div class="row mb-5 justify-content-center">
-          <div class="col-lg-6 text-center">
-            <h2 class="section-title text-center mb-3">Route Planner</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div id="map"></div>
-        </div>
-      </div>
-    </div>
-    <!-- tools -->
-    <div class="untree_co-section pb-0">
-      <div class="container">
-        <div class="row mb-5 justify-content-center">
-          <div class="col-lg-6 text-center">
-            <h2 class="section-title text-center mb-3">Our Tools</h2>
-          </div>
-        </div>
-        <div class="row my-5">
-          <div class="col-6 col-md-6 col-lg-4">
-            <div class="service text-center">
-              <img
-                src="images/icons/online.png"
-                width="60"
-                alt=""
-                class="mb-3"
-              />
-              <a href=""><h3>Service Frequency Calculator</h3></a>
-              <p>
-                Calculate and convert service frequency to trips per hour and
-                vice versa
-              </p>
-              <a href="">more details</a>
-            </div>
-          </div>
-          <div class="col-6 col-md-6 col-lg-4">
-            <div class="service text-center">
-              <img
-                src="images/icons/speedometer.png"
-                width="60"
-                alt=""
-                class="mb-3"
-              />
-              <a href=""><h3>Average Speed Calculator Tool</h3></a>
-              <p>Calculates the Average Speed based on time and distance</p>
-              <a href="">more details</a>
-            </div>
-          </div>
-          <div class="col-6 col-md-6 col-lg-4">
-            <div class="service text-center">
-              <img
-                src="images/icons/calculator.png"
-                width="60"
-                alt=""
-                class="mb-3"
-              />
-              <a href=""><h3>Service Charter Cost Calculator</h3></a>
-              <p>
-                Calculate the service cost based on time and distance variables
-              </p>
-              <a href="">more details</a>
-            </div>
-          </div>
-          <div class="col-6 col-md-6 col-lg-4 my-5">
-            <div class="service text-center">
-              <img src="images/icons/car.png" width="60" alt="" class="mb-3" />
-              <a href=""><h3>Peak Vehicle Estimator</h3></a>
-              <p>
-                Enter the travel time, layover time, service frequency and we
-                will estimate the number of vehicles required
-              </p>
-              <a href="">more details</a>
-            </div>
-          </div>
-          <div class="col-6 col-md-6 col-lg-4 my-5">
-            <div class="service text-center">
-              <img src="images/icons/hand.png" width="60" alt="" class="mb-3" />
-              <a href=""><h3>Bus Stop Capacity Check</h3></a>
-              <p>
-                This tool checks if all scheduled services can be accommodated
-                efficiently within the bus stop
-              </p>
-              <a href="">more details</a>
-            </div>
-          </div>
-          <div class="col-6 col-md-6 col-lg-4 my-5">
-            <div class="service text-center">
-              <img
-                src="images/icons/online.png"
-                width="60"
-                alt=""
-                class="mb-3"
-              />
-              <a href=""><h3>Average Fleet Age</h3></a>
-              <p>
-                Calculate the Average Age of your fleet and check you are
-                meeting any age requirements
-              </p>
-              <a href="">more details</a>
-            </div>
-          </div>
-
-          <div class="col-6 col-md-6 col-lg-4 my-5">
-            <div class="service text-center">
-              <img src="images/icons/bus.png" width="60" alt="" class="mb-3" />
-              <a href=""><h3>Bus Stop Design & Sketch</h3></a>
-              <p>
-                Create a sketch of a bus stop including draw in & out and see
-                how many buses it can accommodate
-              </p>
-              <a href="">more details</a>
-            </div>
-          </div>
-          <div class="col-6 col-md-6 col-lg-4 my-5">
-            <div class="service text-center">
-              <img src="images/icons/map.png" width="60" alt="" class="mb-3" />
-              <a href=""><h3>Route Map</h3></a>
-              <p>
-                This tool creates a route between two or more locations and
-                includes distances and time estimates
-              </p>
-              <a href="">more details</a>
-            </div>
-          </div>
-          <div class="col-6 col-md-6 col-lg-4 my-5">
-            <div class="service text-center">
-              <img
-                src="images/icons/calendar.png"
-                width="60"
-                alt=""
-                class="mb-3"
-              />
-              <a href=""><h3>Timetable Creator</h3></a>
-              <p>
-                Create a transit timetable within minutes by entering a few
-                variables, no experience required
-              </p>
-              <a href="">more details</a>
-            </div>
-          </div>
-
-          <div class="col-6 col-md-6 col-lg-4 my-5">
-            <div class="service text-center">
-              <img
-                src="images/icons/online.png"
-                width="60"
-                alt=""
-                class="mb-3"
-              />
-              <a href=""><h3>Vehicle Block Creator</h3></a>
-              <p>
-                Create Vehicle Shifts quickly and easily. Includes a
-                comprehensive breakdown of distance, hours, peak buses and costs
-              </p>
-              <a href="">more details</a>
-            </div>
-          </div>
-          <div class="col-6 col-md-6 col-lg-4 my-5">
-            <div class="service text-center">
-              <img
-                src="images/icons/timetable.png"
-                width="60"
-                alt=""
-                class="mb-3"
-              />
-              <a href=""><h3>Multiple Stop Timetable</h3></a>
-              <p>
-                Create a detailed transit timetables with multiple stops and
-                variable running times easily and efficiently
-              </p>
-              <a href="">more details</a>
-            </div>
-          </div>
-          <div class="col-6 col-md-6 col-lg-4 my-5">
-            <div class="service text-center">
-              <img
-                src="images/icons/expectation.png"
-                width="60"
-                alt=""
-                class="mb-3"
-              />
-              <a href=""><h3>Travel Time Analyser</h3></a>
-              <p>
-                Quickly identify how long it takes to travel between multiple
-                locations at different times of the day
-              </p>
-              <a href="">more details</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- counter 2 -->
-    <div class="untree_co-section mt-0 pt-0">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-6 text-center">
-            <h2 class="section-title text-center mb-3">Statistics</h2>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="projectFacts" class="sectionClass">
-      <div class="fullWidth eight columns">
-        <div class="projectFactsWrap">
-          <div
-            class="item wow fadeInUpBig animated animated"
-            data-number="12"
-            style="visibility: visible"
-          >
-            <i class="fa fa-briefcase"></i>
-            <p id="number1" class="number" data-count="12">12</p>
-            <span></span>
-            <p>Number of Tools</p>
-          </div>
-          <div
-            class="item wow fadeInUpBig animated animated"
-            data-number="55"
-            style="visibility: visible"
-          >
-            <i class="fa fa-gear"></i>
-            <p id="number2" class="number" data-count="4440">4440</p>
-            <span></span>
-            <p>Resources</p>
-          </div>
-          <div
-            class="item wow fadeInUpBig animated animated"
-            data-number="359"
-            style="visibility: visible"
-          >
-            <i class="fa fa-user"></i>
-            <p id="number3" class="number" data-count="359">359</p>
-            <span></span>
-            <p>Satisfied Clients</p>
-          </div>
-          <div
-            class="item wow fadeInUpBig animated animated"
-            data-number="246"
-            style="visibility: visible"
-          >
-            <i class="fa-regular fa-face-smile"></i>
-            <p id="number4" class="number" data-count="246">246</p>
-            <span></span>
-            <p>Problems Solved</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- pricinng cards  -->
-    <div class="untree_co-section pb-0 mb-0">
-      <div class="row text-center justify-content-center mb-5">
-        <div class="col-lg-7">
-          <p class="mb-0">Affordable Tools & Calculators</p>
-          <h2 class="section-title text-center">Our Pricing Plans</h2>
-        </div>
-      </div>
-      <div class="demo">
+      <div class="inner dark copy-right-color">
         <div class="container">
-          <div class="row">
-            <div class="col-md-3 col-sm-6">
-              <div class="pricingTable">
-                <h3 class="title">Bronze</h3>
-                <div class="price-value">
-                  <span class="currency">$</span>
-                  <span class="amount">20.00</span>
-                  <span class="month">/month per user</span>
-                </div>
-                <ul class="pricing-content">
-                  <li><b>Agencies:</b> 1</li>
-                  <li><b>Stops:</b> Unlimited</li>
-                  <li><b>Routes</b> 2</li>
-                  <li><b>Import/export</b> Unlimited</li>
-                </ul>
-                <a href="#" class="pricingTable-signup">Buy Now</a>
-                <a href="#" class="pricingTable-signup">Try For Free</a>
-              </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-              <div class="pricingTable pink">
-                <h3 class="title">Silver</h3>
-                <div class="price-value">
-                  <span class="currency">$</span>
-                  <span class="amount">45.00</span>
-                  <span class="month">/month per user</span>
-                </div>
-                <ul class="pricing-content">
-                  <li><b>Agencies:</b> 1</li>
-                  <li><b>Stops:</b> Unlimited</li>
-                  <li><b>Routes</b> 5</li>
-                  <li><b>Import/export</b> Unlimited</li>
-                </ul>
-                <a href="#" class="pricingTable-signup">Buy Now</a>
-                <a href="#" class="pricingTable-signup">Try For Free</a>
-              </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-              <div class="pricingTable blue">
-                <h3 class="title">Gold</h3>
-                <div class="price-value">
-                  <span class="currency">$</span>
-                  <span class="amount">150.00</span>
-                  <span class="month">/month per user</span>
-                </div>
-                <ul class="pricing-content">
-                  <li><b>Agencies:</b> 2</li>
-                  <li><b>Stops:</b> Unlimited</li>
-                  <li><b>Routes</b> 20 combined</li>
-                  <li><b>Import/export</b> Unlimited</li>
-                </ul>
-                <a href="#" class="pricingTable-signup">Buy Now</a>
-                <a href="#" class="pricingTable-signup">Try For Free</a>
-              </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-              <div class="pricingTable platinium">
-                <h3 class="title">Platinum</h3>
-                <div class="price-value">
-                  <span class="currency">$</span>
-                  <span class="amount">300.0</span>
-                  <span class="month">/month per user</span>
-                </div>
-                <ul class="pricing-content">
-                  <li><b>Agencies:</b> 4</li>
-                  <li><b>Stops:</b> Unlimited</li>
-                  <li><b>Routes</b> 50 combined</li>
-                  <li><b>Import/export</b> Unlimited</li>
-                </ul>
-                <a href="#" class="pricingTable-signup">Buy Now</a>
-                <a href="#" class="pricingTable-signup">Try For Free</a>
-              </div>
+          <div class="row text-center">
+            <div class="col-md-8 mb-3 mb-md-0 mx-auto">
+              <p class="text-dark">
+                Copyright &copy;
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                . All Rights Reserved. &mdash;
+
+                <!-- License information: https://untree.co/license/ -->
+                <a href="index.html" target="_blank">Bus Mate</a>
+              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </footer>
+  <!-- footer end -->
 
-    <!-- privcing ends -->
-
-    <div class="untree_co-section testimonial-section mt-5">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-7 text-center">
-            <h2 class="section-title text-center mb-5">Testimonials</h2>
-
-            <div class="owl-single owl-carousel no-nav">
-              <div class="testimonial mx-auto">
-                <figure class="img-wrap">
-                  <img
-                    src="images/person_2.jpg"
-                    alt="Image"
-                    class="img-fluid"
-                  />
-                </figure>
-                <h3 class="name">Adam Aderson</h3>
-                <blockquote>
-                  <p>
-                    &ldquo;There live the blind texts. Separated they live in
-                    Bookmarksgrove right at the coast of the Semantics, a large
-                    language ocean.&rdquo;
-                  </p>
-                </blockquote>
-              </div>
-
-              <div class="testimonial mx-auto">
-                <figure class="img-wrap">
-                  <img
-                    src="images/person_3.jpg"
-                    alt="Image"
-                    class="img-fluid"
-                  />
-                </figure>
-                <h3 class="name">Lukas Devlin</h3>
-                <blockquote>
-                  <p>
-                    &ldquo;There live the blind texts. Separated they live in
-                    Bookmarksgrove right at the coast of the Semantics, a large
-                    language ocean.&rdquo;
-                  </p>
-                </blockquote>
-              </div>
-
-              <div class="testimonial mx-auto">
-                <figure class="img-wrap">
-                  <img
-                    src="images/person_4.jpg"
-                    alt="Image"
-                    class="img-fluid"
-                  />
-                </figure>
-                <h3 class="name">Kayla Bryant</h3>
-                <blockquote>
-                  <p>
-                    &ldquo;There live the blind texts. Separated they live in
-                    Bookmarksgrove right at the coast of the Semantics, a large
-                    language ocean.&rdquo;
-                  </p>
-                </blockquote>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+  <div id="overlayer"></div>
+  <div class="loader">
+    <div class="spinner-border" role="status">
+      <span class="sr-only">Loading..</span>
     </div>
+  </div>
 
-    <div class="untree_co-section">
-      <div class="container">
-        <div class="row justify-content-center text-center mb-5">
-          <div class="col-lg-6">
-            <h2 class="section-title text-center mb-3">
-              Resources to help transport operators
-            </h2>
-            <p>Need to be able to filter by topic</p>
-          </div>
-        </div>
-        <div class="row gap-2">
-          <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0 p-0 p-md-5">
-            <div class="media-1">
-              <a href="#" class="d-block mb-3"
-                ><img
-                  src="images/tool_bus.jpg"
-                  width="100%"
-                  alt="Image"
-                  class="img-fluid"
-              /></a>
-              <!-- <span class="d-flex align-items-center loc mb-2">
-							<span class="icon-room mr-3"></span>
-							<span>Italy</span>
-						</span> -->
-              <div class="d-flex align-items-center justify-content-center">
-                <div>
-                  <h3><a href="#">GTFS Buider</a></h3>
-                  <div class="price ml-auto">
-                    <span>Edit Agency Details</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0 p-0 p-md-5">
-            <div class="media-1">
-              <a href="#" class="d-block mb-3"
-                ><img
-                  src="images/logo_card.jpg"
-                  width="100%"
-                  alt="Image"
-                  class="img-fluid"
-              /></a>
-              <!-- <span class="d-flex align-items-center loc mb-2">
-							<span class="icon-room mr-3"></span>
-							<span>United States</span>
-						</span> -->
-              <div
-                class="d-flex align-items-center justify-content-center mt-5"
-              >
-                <div>
-                  <h3><a href="#">GTFS Buider</a></h3>
-                  <div class="price ml-auto">
-                    <span>Edit Agency Details</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0 p-0 p-md-5">
-            <div class="media-1">
-              <a href="#" class="d-block mb-3"
-                ><img
-                  src="images/logo_card.jpg"
-                  width="100%"
-                  alt="Image"
-                  class="img-fluid"
-              /></a>
-              <!-- <span class="d-flex align-items-center loc mb-2">
-							<span class="icon-room mr-3"></span>
-							<span>United States</span>
-						</span> -->
-              <div
-                class="d-flex align-items-center justify-content-center mt-5"
-              >
-                <div>
-                  <h3><a href="#">GTFS Buider</a></h3>
-                  <div class="price ml-auto">
-                    <span>Edit Agency Details</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/moment.min.js"></script>
+  <script src="js/daterangepicker.js"></script>
 
-    <div class="untree_co-section">
-      <div class="container">
-        <div class="row justify-content-between align-items-center">
-          <div class="col-lg-6">
-            <figure class="img-play-video">
-              <a
-                id="play-video"
-                class="video-play-button"
-                href="https://www.youtube.com/watch?v=IeardDdWcQk"
-                data-fancybox
-              >
-                <span></span>
-              </a>
-              <img
-                src="images/abt.jpg"
-                alt="Image"
-                class="img-fluid rounded-20 h-100"
-              />
-            </figure>
-          </div>
+  <script src="js/typed.js"></script>
+  <script>
+    $(function () {
+      var slides = $(".slides"),
+        images = slides.find("img");
 
-          <div class="col-lg-5">
-            <h2 class="section-title text-left mb-4">
-              Take a look at our service
-            </h2>
-            <p>
-              Take a moment to explore our range of services designed to enhance
-              your travel experience. From convenient booking options to
-              luxurious onboard amenities, we prioritize your comfort and
-              satisfaction every step of the way. Discover how Bus Mate can
-              elevate your journey and create unforgettable travel memories.
-            </p>
-
-            <ul class="list-unstyled two-col clearfix">
-              <li>Service Frequency Calculator</li>
-              <li>Average Speed Calculator Tool</li>
-              <li>Service Charter Cost Calculator</li>
-              <li>Peak Vehicle Estimator</li>
-              <li>Bus Stop Capacity Check</li>
-              <li>Average Fleet Age</li>
-              <li>Route Map</li>
-              <li>Timetable Creator</li>
-              <!-- <li>Insurance</li>
-              <li>Guide Books</li> -->
-            </ul>
-
-            <p><a href="#" class="btn btn-primary">Get Started</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="py-5 cta-section">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-md-12">
-            <h2 class="mb-2 text-white">
-              Lets you Explore the Best. Contact Us Now
-            </h2>
-            <p class="mb-4 lead text-white text-white-opacity">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Excepturi, fugit?
-            </p>
-            <p class="mb-0">
-              <a
-                href="booking.html"
-                class="btn btn-outline-white text-white btn-md font-weight-bold"
-                >Get in touch</a
-              >
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- footer start -->
-    <footer>
-      <div class="site-footer">
-        <div class="inner first">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-6 col-lg-4">
-                <div class="widget">
-                  <h3 class="heading"><strong>About Tour</strong></h3>
-                  <p class="text-dark">
-                    Far far away, behind the word mountains, far from the
-                    countries Vokalia and Consonantia, there live the blind
-                    texts.
-                  </p>
-                </div>
-                <div class="widget">
-                  <ul class="list-unstyled social">
-                    <li>
-                      <a href="#"><span class="icon-twitter"></span></a>
-                    </li>
-                    <li>
-                      <a href="#"><span class="icon-instagram"></span></a>
-                    </li>
-                    <li>
-                      <a href="#"><span class="icon-facebook"></span></a>
-                    </li>
-                    <li>
-                      <a href="#"><span class="icon-linkedin"></span></a>
-                    </li>
-                    <li>
-                      <a href="#"><span class="icon-dribbble"></span></a>
-                    </li>
-                    <li>
-                      <a href="#"><span class="icon-pinterest"></span></a>
-                    </li>
-                    <li>
-                      <a href="#"><span class="icon-apple"></span></a>
-                    </li>
-                    <li>
-                      <a href="#"><span class="icon-google"></span></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-2 pl-lg-5">
-                <div class="widget">
-                  <h3 class="heading"><strong>Pages</strong></h3>
-                  <ul class="links list-unstyled">
-                    <li><a href="index.html">GTFS</a></li>
-                    <li><a href="services.html">Resources</a></li>
-
-                    <li><a href="Sign-in.html">Login</a></li>
-                    <li><a href="privacy.html">Privacy Policy</a></li>
-                    <li><a href="TermofUse.html">Term of Use</a></li>
-                  </ul>
-                </div>
-
-                <div class="widget">
-                  <h3 class="heading"><strong>FAQs</strong></h3>
-                  <ul class="links list-unstyled">
-                    <li><a href="pricingFAQs.html">Pricing</a></li>
-                    <li><a href="accountUserFAQs.html">Account & Users</a></li>
-                    <li><a href="DataGuarantee.html">Data Guarantee</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-2">
-                <div class="widget">
-                  <h3 class="heading"><strong> Transit Services </strong></h3>
-                  <ul class="links list-unstyled">
-                    <li><a href="t1-enroute.html"> T1 Enroute </a></li>
-                    <li><a href="t2.html">T2 Performance </a></li>
-                    <li><a href="t3.html">T3 Schedules </a></li>
-                    <li><a href="t4.html">T4 GTFS Static </a></li>
-                    <li><a href="t5.html">T5 GTFS Realtime </a></li>
-                    <li><a href="t6.html">T6 Operations </a></li>
-                    <li><a href="t7.html">T7 Insights </a></li>
-                    <li><a href="t8.html">T8 Governance </a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-4">
-                <div class="widget">
-                  <h3 class="heading"><strong>Contact</strong></h3>
-                  <ul class="list-unstyled quick-info links">
-                    <li class="email"><a href="#">mail@example.com</a></li>
-                    <li class="phone"><a href="#">+1 222 212 3819</a></li>
-                    <li class="address">
-                      <a href="#">43 Raymouth Rd. Baltemoer, Australia 3910</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="inner dark copy-right-color">
-          <div class="container">
-            <div class="row text-center">
-              <div class="col-md-8 mb-3 mb-md-0 mx-auto">
-                <p class="text-dark">
-                  Copyright &copy;
-                  <script>
-                    document.write(new Date().getFullYear());
-                  </script>
-                  . All Rights Reserved. &mdash;
-
-                  <!-- License information: https://untree.co/license/ -->
-                  <a href="index.html" target="_blank">Bus Mate</a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- footer end -->
-
-    <div id="overlayer"></div>
-    <div class="loader">
-      <div class="spinner-border" role="status">
-        <span class="sr-only">Loading..</span>
-      </div>
-    </div>
-
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.animateNumber.min.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.fancybox.min.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/moment.min.js"></script>
-    <script src="js/daterangepicker.js"></script>
-
-    <script src="js/typed.js"></script>
-    <script>
-      $(function () {
-        var slides = $(".slides"),
-          images = slides.find("img");
-
-        images.each(function (i) {
-          $(this).attr("data-id", i + 1);
-        });
-
-        var typed = new Typed(".typed-words", {
-          strings: ["planning easy."],
-          typeSpeed: 80,
-          backSpeed: 80,
-          backDelay: 4000,
-          startDelay: 1000,
-          loop: true,
-          showCursor: true,
-          preStringTyped: (arrayPos, self) => {
-            arrayPos++;
-            console.log(arrayPos);
-            $(".slides img").removeClass("active");
-            $('.slides img[data-id="' + arrayPos + '"]').addClass("active");
-          },
-        });
+      images.each(function (i) {
+        $(this).attr("data-id", i + 1);
       });
-    </script>
-    <script>
-      var map;
-      var markers = [];
-      var polyline;
 
-      function initMap() {
-        map = new google.maps.Map(document.getElementById("map"), {
-          center: { lat: -25.2744, lng: 133.7751 }, // Coordinates for Australia
-          zoom: 5,
-        });
+      var typed = new Typed(".typed-words", {
+        strings: ["planning easy."],
+        typeSpeed: 80,
+        backSpeed: 80,
+        backDelay: 4000,
+        startDelay: 1000,
+        loop: true,
+        showCursor: true,
+        preStringTyped: (arrayPos, self) => {
+          arrayPos++;
+          console.log(arrayPos);
+          $(".slides img").removeClass("active");
+          $('.slides img[data-id="' + arrayPos + '"]').addClass("active");
+        },
+      });
+    });
+  </script>
+  <script>
+    var map;
+    var markers = [];
+    var polyline;
 
-        map.addListener("click", function (event) {
-          addMarker(event.latLng);
-        });
+    function initMap() {
+      map = new google.maps.Map(document.getElementById("map"), {
+        center: { lat: -25.2744, lng: 133.7751 }, // Coordinates for Australia
+        zoom: 5,
+      });
+
+      map.addListener("click", function (event) {
+        addMarker(event.latLng);
+      });
+    }
+
+    function addMarker(location) {
+      var marker = new google.maps.Marker({
+        position: location,
+        map: map,
+      });
+      markers.push(marker);
+
+      updatePolyline();
+    }
+
+    function updatePolyline() {
+      if (polyline) {
+        polyline.setMap(null);
       }
 
-      function addMarker(location) {
-        var marker = new google.maps.Marker({
-          position: location,
-          map: map,
-        });
-        markers.push(marker);
+      var path = markers.map(function (marker) {
+        return marker.getPosition();
+      });
 
-        updatePolyline();
-      }
+      polyline = new google.maps.Polyline({
+        path: path,
+        geodesic: true,
+        strokeColor: "#FF0000",
+        strokeOpacity: 1.0,
+        strokeWeight: 2,
+      });
 
-      function updatePolyline() {
-        if (polyline) {
-          polyline.setMap(null);
-        }
+      polyline.setMap(map);
 
-        var path = markers.map(function (marker) {
+      calculateDistance();
+    }
+
+    function calculateDistance() {
+      var distance = google.maps.geometry.spherical.computeLength(
+        polyline.getPath()
+      );
+      document
+        .getElementById("routeTitle")
+        .setAttribute(
+          "placeholder",
+          "Distance: " + (distance / 1000).toFixed(2) + " km"
+        );
+    }
+
+    function saveRoute() {
+      var title = document.getElementById("routeTitle").value;
+      var description = document.getElementById("routeDescription").value;
+
+      // Here you can implement your saving logic
+      console.log("Title:", title);
+      console.log("Description:", description);
+      console.log(
+        "Coordinates:",
+        markers.map(function (marker) {
           return marker.getPosition();
-        });
+        })
+      );
+    }
+  </script>
 
-        polyline = new google.maps.Polyline({
-          path: path,
-          geodesic: true,
-          strokeColor: "#FF0000",
-          strokeOpacity: 1.0,
-          strokeWeight: 2,
-        });
+  <script>
+    var map;
+    var markers = [];
+    var polyline;
 
-        polyline.setMap(map);
+    function initMap() {
+      map = new google.maps.Map(document.getElementById("map"), {
+        center: { lat: -25.2744, lng: 133.7751 }, // Coordinates for Australia
+        zoom: 5,
+      });
 
-        calculateDistance();
+      map.addListener("click", function (event) {
+        addMarker(event.latLng);
+      });
+    }
+
+    function addMarker(location) {
+      var marker = new google.maps.Marker({
+        position: location,
+        map: map,
+      });
+      markers.push(marker);
+
+      updatePolyline();
+    }
+
+    function updatePolyline() {
+      if (polyline) {
+        polyline.setMap(null);
       }
 
-      function calculateDistance() {
-        var distance = google.maps.geometry.spherical.computeLength(
-          polyline.getPath()
+      var path = markers.map(function (marker) {
+        return marker.getPosition();
+      });
+
+      polyline = new google.maps.Polyline({
+        path: path,
+        geodesic: true,
+        strokeColor: "#FF0000",
+        strokeOpacity: 1.0,
+        strokeWeight: 2,
+      });
+
+      polyline.setMap(map);
+
+      calculateDistance();
+    }
+
+    function calculateDistance() {
+      var distance = google.maps.geometry.spherical.computeLength(
+        polyline.getPath()
+      );
+      document
+        .getElementById("routeTitle")
+        .setAttribute(
+          "placeholder",
+          "Distance: " + (distance / 1000).toFixed(2) + " km"
         );
-        document
-          .getElementById("routeTitle")
-          .setAttribute(
-            "placeholder",
-            "Distance: " + (distance / 1000).toFixed(2) + " km"
-          );
-      }
+    }
 
-      function saveRoute() {
-        var title = document.getElementById("routeTitle").value;
-        var description = document.getElementById("routeDescription").value;
+    function saveRoute() {
+      var title = document.getElementById("routeTitle").value;
+      var description = document.getElementById("routeDescription").value;
 
-        // Here you can implement your saving logic
-        console.log("Title:", title);
-        console.log("Description:", description);
-        console.log(
-          "Coordinates:",
-          markers.map(function (marker) {
-            return marker.getPosition();
-          })
-        );
-      }
-    </script>
-
-    <script>
-      var map;
-      var markers = [];
-      var polyline;
-
-      function initMap() {
-        map = new google.maps.Map(document.getElementById("map"), {
-          center: { lat: -25.2744, lng: 133.7751 }, // Coordinates for Australia
-          zoom: 5,
-        });
-
-        map.addListener("click", function (event) {
-          addMarker(event.latLng);
-        });
-      }
-
-      function addMarker(location) {
-        var marker = new google.maps.Marker({
-          position: location,
-          map: map,
-        });
-        markers.push(marker);
-
-        updatePolyline();
-      }
-
-      function updatePolyline() {
-        if (polyline) {
-          polyline.setMap(null);
-        }
-
-        var path = markers.map(function (marker) {
+      // Here you can implement your saving logic
+      console.log("Title:", title);
+      console.log("Description:", description);
+      console.log(
+        "Coordinates:",
+        markers.map(function (marker) {
           return marker.getPosition();
-        });
+        })
+      );
+    }
+  </script>
 
-        polyline = new google.maps.Polyline({
-          path: path,
-          geodesic: true,
-          strokeColor: "#FF0000",
-          strokeOpacity: 1.0,
-          strokeWeight: 2,
-        });
+  <script src="js/custom.js"></script>
 
-        polyline.setMap(map);
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDDCT1y6vpC4jJ3_LGzRnMF6OclbkDEfU&libraries=geometry&callback=initMap"></script>
+</body>
 
-        calculateDistance();
-      }
-
-      function calculateDistance() {
-        var distance = google.maps.geometry.spherical.computeLength(
-          polyline.getPath()
-        );
-        document
-          .getElementById("routeTitle")
-          .setAttribute(
-            "placeholder",
-            "Distance: " + (distance / 1000).toFixed(2) + " km"
-          );
-      }
-
-      function saveRoute() {
-        var title = document.getElementById("routeTitle").value;
-        var description = document.getElementById("routeDescription").value;
-
-        // Here you can implement your saving logic
-        console.log("Title:", title);
-        console.log("Description:", description);
-        console.log(
-          "Coordinates:",
-          markers.map(function (marker) {
-            return marker.getPosition();
-          })
-        );
-      }
-    </script>
-
-    <script src="js/custom.js"></script>
-
-    <script
-      async
-      defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDDCT1y6vpC4jJ3_LGzRnMF6OclbkDEfU&libraries=geometry&callback=initMap"
-    ></script>
-  </body>
 </html>
